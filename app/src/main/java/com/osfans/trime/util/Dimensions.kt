@@ -4,7 +4,7 @@
 
 @file:Suppress("NOTHING_TO_INLINE")
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.content.Context
 import android.util.TypedValue
