@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.content.Intent
 import android.net.Uri
@@ -14,8 +14,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import com.mikepenz.aboutlibraries.Libs
 import com.mikepenz.aboutlibraries.entity.License
-import com.osfans.trime.R
-import com.osfans.trime.ui.common.PaddingPreferenceFragment
+import com.localtype.app.R
+import com.localtype.app.ui.common.PaddingPreferenceFragment
 import kotlinx.coroutines.launch
 
 class LicenseFragment : PaddingPreferenceFragment() {
