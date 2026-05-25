@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: 2015 - 2024 Rime community
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
-package com.osfans.trime.data.prefs
+package com.localtype.app.data.prefs
 
 import android.content.Context
 import androidx.annotation.StringRes
@@ -10,8 +10,8 @@ import androidx.preference.EditTextPreference
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.SwitchPreference
-import com.osfans.trime.ui.main.settings.DialogSeekBarPreference
-import com.osfans.trime.ui.main.settings.EditTextIntPreference
+import com.localtype.app.ui.main.settings.DialogSeekBarPreference
+import com.localtype.app.ui.main.settings.EditTextIntPreference
 
 abstract class PreferenceDelegateUi<T : Preference>(
     val key: String,
