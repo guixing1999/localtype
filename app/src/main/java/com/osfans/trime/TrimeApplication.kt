@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime
+package com.localtype.app
 
 import android.app.Application
 import android.content.Intent
@@ -14,14 +14,14 @@ import android.util.Log
 import androidx.core.content.ContextCompat
 import androidx.core.content.edit
 import androidx.preference.PreferenceManager
-import com.osfans.trime.data.db.ClipboardHelper
-import com.osfans.trime.data.db.CollectionHelper
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.receiver.RimeIntentReceiver
-import com.osfans.trime.ui.main.LogActivity
-import com.osfans.trime.util.isNightMode
-import com.osfans.trime.worker.BackgroundSyncWork
+import com.localtype.app.data.db.ClipboardHelper
+import com.localtype.app.data.db.CollectionHelper
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.receiver.RimeIntentReceiver
+import com.localtype.app.ui.main.LogActivity
+import com.localtype.app.util.isNightMode
+import com.localtype.app.worker.BackgroundSyncWork
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.launch
