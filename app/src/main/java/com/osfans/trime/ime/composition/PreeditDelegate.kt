@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.composition
+package com.localtype.app.ime.composition
 
 import android.content.Context
 import android.graphics.drawable.GradientDrawable
 import android.view.View
 import android.view.ViewOutlineProvider
-import com.osfans.trime.core.CompositionProto
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.broadcast.InputBroadcastReceiver
-import com.osfans.trime.ime.core.TouchEventReceiverWindow
-import com.osfans.trime.ime.dependency.InputDependencyManager
+import com.localtype.app.core.CompositionProto
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.broadcast.InputBroadcastReceiver
+import com.localtype.app.ime.core.TouchEventReceiverWindow
+import com.localtype.app.ime.dependency.InputDependencyManager
 import org.kodein.di.instance
 import splitties.dimensions.dp
 import splitties.views.horizontalPadding
