@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings
+package com.localtype.app.ui.main.settings
 
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.prefs.PreferenceDelegateFragment
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.prefs.PreferenceDelegateFragment
 import kotlinx.coroutines.launch
 
 class KeyboardSettingsFragment : PreferenceDelegateFragment(AppPrefs.defaultInstance().keyboard) {
