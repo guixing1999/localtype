@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.bar.ui
+package com.localtype.app.ime.bar.ui
 
 import android.content.Context
 import androidx.annotation.DrawableRes
@@ -12,8 +12,8 @@ import com.google.android.flexbox.AlignItems
 import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexboxLayout
 import com.google.android.flexbox.JustifyContent
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.ToolBar
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.ToolBar
 import splitties.dimensions.dp
 import splitties.views.dsl.core.Ui
 import splitties.views.dsl.core.view
