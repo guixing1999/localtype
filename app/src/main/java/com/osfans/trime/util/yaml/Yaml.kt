@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util.yaml
+package com.localtype.app.util.yaml
 
 sealed class Yaml {
     companion object Default : Yaml()
