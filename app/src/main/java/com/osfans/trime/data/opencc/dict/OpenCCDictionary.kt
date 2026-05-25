@@ -2,9 +2,9 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.opencc.dict
+package com.localtype.app.data.opencc.dict
 
-import com.osfans.trime.data.opencc.OpenCCDictManager
+import com.localtype.app.data.opencc.OpenCCDictManager
 import java.io.File
 
 class OpenCCDictionary(
