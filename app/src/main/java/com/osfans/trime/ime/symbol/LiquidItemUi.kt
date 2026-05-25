@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.symbol
+package com.localtype.app.ime.symbol
 
 import android.content.Context
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.FontManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.core.AutoScaleTextView
-import com.osfans.trime.ime.keyboard.GestureFrame
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.FontManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.core.AutoScaleTextView
+import com.localtype.app.ime.keyboard.GestureFrame
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.centerInParent
 import splitties.views.dsl.constraintlayout.constraintLayout
