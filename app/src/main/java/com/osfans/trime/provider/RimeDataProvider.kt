@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.provider
+package com.localtype.app.provider
 
 import android.content.res.AssetFileDescriptor
 import android.database.MatrixCursor
@@ -14,7 +14,7 @@ import android.provider.DocumentsContract.Document
 import android.provider.DocumentsContract.Root
 import android.provider.DocumentsProvider
 import android.webkit.MimeTypeMap
-import com.osfans.trime.R
+import com.localtype.app.R
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.IOException
