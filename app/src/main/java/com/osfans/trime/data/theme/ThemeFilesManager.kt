@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.util.yaml.Yaml
-import com.osfans.trime.util.yaml.mapping
-import com.osfans.trime.util.yaml.string
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.util.yaml.Yaml
+import com.localtype.app.util.yaml.mapping
+import com.localtype.app.util.yaml.string
 import timber.log.Timber
 import java.io.File
 
