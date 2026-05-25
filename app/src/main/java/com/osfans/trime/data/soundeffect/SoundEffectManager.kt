@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.soundeffect
+package com.localtype.app.data.soundeffect
 
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.ime.keyboard.InputFeedbackManager
-import com.osfans.trime.util.FileUtils
-import com.osfans.trime.util.yaml.Yaml
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.ime.keyboard.InputFeedbackManager
+import com.localtype.app.util.FileUtils
+import com.localtype.app.util.yaml.Yaml
 import timber.log.Timber
 import java.io.File
 
