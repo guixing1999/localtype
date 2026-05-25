@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.content.Context
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.util.isLandscape
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.util.isLandscape
 
 object KeyboardPrefs {
     private val prefs = AppPrefs.defaultInstance()
