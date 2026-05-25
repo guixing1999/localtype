@@ -2,10 +2,10 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.enums
+package com.localtype.app.ime.enums
 
 import android.view.KeyEvent
-import com.osfans.trime.util.virtualKeyCharacterMap
+import com.localtype.app.util.virtualKeyCharacterMap
 import timber.log.Timber
 import java.util.EnumMap
 import kotlin.collections.HashMap
