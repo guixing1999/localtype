@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 /** Manages [Keyboard]s and their status. **/
 @Deprecated("Migrate into KeyboardWindow")
