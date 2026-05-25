@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.window
+package com.localtype.app.ime.window
 
 import android.content.Context
 import android.view.View
@@ -10,9 +10,9 @@ import android.widget.FrameLayout
 import androidx.transition.Transition
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
-import com.osfans.trime.R
-import com.osfans.trime.ime.broadcast.InputBroadcaster
-import com.osfans.trime.ime.dependency.InputDependencyManager
+import com.localtype.app.R
+import com.localtype.app.ime.broadcast.InputBroadcaster
+import com.localtype.app.ime.dependency.InputDependencyManager
 import org.kodein.di.instance
 import splitties.views.dsl.core.add
 import splitties.views.dsl.core.frameLayout
