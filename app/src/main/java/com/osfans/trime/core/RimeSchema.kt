@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.core
+package com.localtype.app.core
 
 class RimeSchema(val schemaId: String) {
     data class Switch(
