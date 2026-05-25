@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.candidates
+package com.localtype.app.ime.candidates
 
 import androidx.recyclerview.widget.RecyclerView
 
