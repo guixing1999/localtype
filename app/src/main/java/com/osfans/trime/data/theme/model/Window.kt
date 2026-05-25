@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.theme.model
+package com.localtype.app.data.theme.model
 
 import android.os.Parcelable
-import com.osfans.trime.util.yaml.Node
-import com.osfans.trime.util.yaml.float
-import com.osfans.trime.util.yaml.get
-import com.osfans.trime.util.yaml.int
+import com.localtype.app.util.yaml.Node
+import com.localtype.app.util.yaml.float
+import com.localtype.app.util.yaml.get
+import com.localtype.app.util.yaml.int
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
