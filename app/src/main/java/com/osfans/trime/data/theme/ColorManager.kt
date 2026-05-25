@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
 import android.content.res.Configuration
 import android.content.res.Resources
@@ -18,12 +18,12 @@ import androidx.annotation.ColorInt
 import androidx.collection.LruCache
 import androidx.core.graphics.drawable.toDrawable
 import androidx.core.math.MathUtils
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.data.theme.model.ColorScheme
-import com.osfans.trime.util.ColorUtils
-import com.osfans.trime.util.NinePatchBitmapFactory
-import com.osfans.trime.util.WeakHashSet
-import com.osfans.trime.util.isNightMode
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.data.theme.model.ColorScheme
+import com.localtype.app.util.ColorUtils
+import com.localtype.app.util.NinePatchBitmapFactory
+import com.localtype.app.util.WeakHashSet
+import com.localtype.app.util.isNightMode
 import timber.log.Timber
 
 object ColorManager {
