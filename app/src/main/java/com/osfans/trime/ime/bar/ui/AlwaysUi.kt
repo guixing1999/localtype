@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.bar.ui
+package com.localtype.app.ime.bar.ui
 
 import android.content.Context
 import android.widget.ViewAnimator
 import androidx.annotation.DrawableRes
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.osfans.trime.R
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.ToolBar
+import com.localtype.app.R
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.ToolBar
 import splitties.views.dsl.constraintlayout.after
 import splitties.views.dsl.constraintlayout.before
 import splitties.views.dsl.constraintlayout.centerVertically
