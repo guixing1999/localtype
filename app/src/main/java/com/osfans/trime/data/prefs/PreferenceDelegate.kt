@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.prefs
+package com.localtype.app.data.prefs
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
-import com.osfans.trime.util.WeakHashSet
+import com.localtype.app.util.WeakHashSet
 import kotlin.properties.ReadWriteProperty
 import kotlin.reflect.KProperty
 
