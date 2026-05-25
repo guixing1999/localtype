@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.db
+package com.localtype.app.data.db
 
 import androidx.paging.PagingSource
 import androidx.room.Dao
