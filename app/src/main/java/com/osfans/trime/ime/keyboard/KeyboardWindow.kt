@@ -2,28 +2,28 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.text.InputType
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
-import com.osfans.trime.R
-import com.osfans.trime.core.CompositionProto
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.core.SchemaItem
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.data.theme.KeyActionManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.TextKeyboard
-import com.osfans.trime.ime.broadcast.EnterKeyDisplayDelegate
-import com.osfans.trime.ime.broadcast.InputBroadcastReceiver
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.keyboard.KeyboardPrefs.isLandscapeMode
-import com.osfans.trime.ime.popup.PopupDelegate
-import com.osfans.trime.ime.window.BoardWindow
-import com.osfans.trime.ime.window.ResidentWindow
+import com.localtype.app.R
+import com.localtype.app.core.CompositionProto
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.core.SchemaItem
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.data.theme.KeyActionManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.TextKeyboard
+import com.localtype.app.ime.broadcast.EnterKeyDisplayDelegate
+import com.localtype.app.ime.broadcast.InputBroadcastReceiver
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.keyboard.KeyboardPrefs.isLandscapeMode
+import com.localtype.app.ime.popup.PopupDelegate
+import com.localtype.app.ime.window.BoardWindow
+import com.localtype.app.ime.window.ResidentWindow
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
