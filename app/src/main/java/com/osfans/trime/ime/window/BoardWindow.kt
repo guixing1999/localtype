@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.window
+package com.localtype.app.ime.window
 
 import android.content.Context
 import android.view.Gravity
@@ -10,7 +10,7 @@ import android.view.View
 import androidx.transition.Fade
 import androidx.transition.Slide
 import androidx.transition.Transition
-import com.osfans.trime.ime.dependency.InputDependencyManager
+import com.localtype.app.ime.dependency.InputDependencyManager
 import org.kodein.di.instance
 
 sealed class BoardWindow {
