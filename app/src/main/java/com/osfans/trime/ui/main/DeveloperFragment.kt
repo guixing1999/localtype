@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.app.AlertDialog
 import android.os.Bundle
 import androidx.fragment.app.activityViewModels
 import androidx.preference.Preference
-import com.osfans.trime.R
-import com.osfans.trime.ui.common.PaddingPreferenceFragment
-import com.osfans.trime.util.AppUtils
-import com.osfans.trime.util.Logcat
+import com.localtype.app.R
+import com.localtype.app.ui.common.PaddingPreferenceFragment
+import com.localtype.app.util.AppUtils
+import com.localtype.app.util.Logcat
 
 class DeveloperFragment : PaddingPreferenceFragment() {
     private val viewModel: MainViewModel by activityViewModels()
