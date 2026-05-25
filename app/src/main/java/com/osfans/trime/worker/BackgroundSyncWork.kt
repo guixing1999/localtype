@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.worker
+package com.localtype.app.worker
 
 import android.content.Context
 import androidx.work.Constraints
@@ -12,8 +12,8 @@ import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.data.prefs.AppPrefs
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.data.prefs.AppPrefs
 import timber.log.Timber
 import java.util.concurrent.TimeUnit
 
