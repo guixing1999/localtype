@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.icu.text.DateFormat
 import android.icu.util.Calendar
