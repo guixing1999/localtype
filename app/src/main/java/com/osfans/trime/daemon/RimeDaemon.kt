@@ -2,25 +2,25 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.daemon
+package com.localtype.app.daemon
 
 import android.app.PendingIntent
 import android.content.Intent
 import android.graphics.Color
 import androidx.core.app.NotificationCompat
-import com.osfans.trime.R
-import com.osfans.trime.TrimeApplication
-import com.osfans.trime.core.Rime
-import com.osfans.trime.core.RimeApi
-import com.osfans.trime.core.RimeLifecycle
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.core.lifecycleScope
-import com.osfans.trime.core.whenReady
-import com.osfans.trime.ui.main.LogActivity
-import com.osfans.trime.util.appContext
-import com.osfans.trime.util.createNotificationChannel
-import com.osfans.trime.util.readText
-import com.osfans.trime.util.subprocess
+import com.localtype.app.R
+import com.localtype.app.TrimeApplication
+import com.localtype.app.core.Rime
+import com.localtype.app.core.RimeApi
+import com.localtype.app.core.RimeLifecycle
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.core.lifecycleScope
+import com.localtype.app.core.whenReady
+import com.localtype.app.ui.main.LogActivity
+import com.localtype.app.util.appContext
+import com.localtype.app.util.createNotificationChannel
+import com.localtype.app.util.readText
+import com.localtype.app.util.subprocess
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
