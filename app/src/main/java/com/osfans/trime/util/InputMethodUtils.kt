@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.content.ComponentName
 import android.content.Context
@@ -12,8 +12,8 @@ import android.os.Build
 import android.provider.Settings
 import android.view.inputmethod.InputMethodInfo
 import android.view.inputmethod.InputMethodSubtype
-import com.osfans.trime.BuildConfig
-import com.osfans.trime.ime.core.TrimeInputMethodService
+import com.localtype.app.BuildConfig
+import com.localtype.app.ime.core.TrimeInputMethodService
 import splitties.systemservices.inputMethodManager
 import timber.log.Timber
 
