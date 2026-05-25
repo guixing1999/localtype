@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates
+package com.localtype.app.ime.candidates
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -11,14 +11,14 @@ import android.graphics.Color
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isVisible
-import com.osfans.trime.core.CandidateItem
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.FontManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.GeneralStyle
-import com.osfans.trime.ime.core.AutoScaleTextView
-import com.osfans.trime.ime.keyboard.GestureFrame
-import com.osfans.trime.util.roundedRippleDrawable
+import com.localtype.app.core.CandidateItem
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.FontManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.GeneralStyle
+import com.localtype.app.ime.core.AutoScaleTextView
+import com.localtype.app.ime.keyboard.GestureFrame
+import com.localtype.app.util.roundedRippleDrawable
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.baselineToBaselineOf
 import splitties.views.dsl.constraintlayout.bottomOfParent
