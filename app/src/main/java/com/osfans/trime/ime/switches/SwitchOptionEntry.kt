@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.switches
+package com.localtype.app.ime.switches
 
 import androidx.annotation.DrawableRes
-import com.osfans.trime.core.RimeSchema
-import com.osfans.trime.daemon.RimeSession
+import com.localtype.app.core.RimeSchema
+import com.localtype.app.daemon.RimeSession
 
 sealed class SwitchOptionEntry(
     val label: String,
