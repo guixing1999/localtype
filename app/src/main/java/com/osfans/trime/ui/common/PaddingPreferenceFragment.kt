@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.common
+package com.localtype.app.ui.common
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.preference.PreferenceFragmentCompat
-import com.osfans.trime.util.applyNavBarInsetsBottomPadding
+import com.localtype.app.util.applyNavBarInsetsBottomPadding
 
 /**
  * A fragment template that apply navigation bar window insets bottom padding
