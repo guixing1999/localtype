@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.receiver
+package com.localtype.app.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import com.osfans.trime.BuildConfig
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.daemon.launchOnReady
+import com.localtype.app.BuildConfig
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.daemon.launchOnReady
 import timber.log.Timber
 
 class RimeIntentReceiver : BroadcastReceiver() {
