@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import android.annotation.SuppressLint
 import android.os.Build
@@ -17,23 +17,23 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.core.CompositionProto
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.bar.InputBarDelegate
-import com.osfans.trime.ime.broadcast.EnterKeyDisplayDelegate
-import com.osfans.trime.ime.broadcast.InputBroadcaster
-import com.osfans.trime.ime.candidates.popup.PopupCandidatesMode
-import com.osfans.trime.ime.composition.PreeditDelegate
-import com.osfans.trime.ime.dependency.InputDependencyManager
-import com.osfans.trime.ime.keyboard.KeyboardPrefs.isLandscapeMode
-import com.osfans.trime.ime.keyboard.KeyboardWindow
-import com.osfans.trime.ime.popup.PopupDelegate
-import com.osfans.trime.ime.symbol.LiquidWindow
-import com.osfans.trime.ime.window.BoardWindowManager
+import com.localtype.app.core.CompositionProto
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.bar.InputBarDelegate
+import com.localtype.app.ime.broadcast.EnterKeyDisplayDelegate
+import com.localtype.app.ime.broadcast.InputBroadcaster
+import com.localtype.app.ime.candidates.popup.PopupCandidatesMode
+import com.localtype.app.ime.composition.PreeditDelegate
+import com.localtype.app.ime.dependency.InputDependencyManager
+import com.localtype.app.ime.keyboard.KeyboardPrefs.isLandscapeMode
+import com.localtype.app.ime.keyboard.KeyboardWindow
+import com.localtype.app.ime.popup.PopupDelegate
+import com.localtype.app.ime.symbol.LiquidWindow
+import com.localtype.app.ime.window.BoardWindowManager
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import org.kodein.di.instance
