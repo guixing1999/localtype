@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,13 +11,13 @@ import android.net.Uri
 import android.os.Bundle
 import androidx.navigation.fragment.findNavController
 import androidx.preference.Preference
-import com.osfans.trime.BuildConfig
-import com.osfans.trime.R
-import com.osfans.trime.ui.common.PaddingPreferenceFragment
-import com.osfans.trime.util.Const
-import com.osfans.trime.util.addCategory
-import com.osfans.trime.util.addPreference
-import com.osfans.trime.util.formatDateTime
+import com.localtype.app.BuildConfig
+import com.localtype.app.R
+import com.localtype.app.ui.common.PaddingPreferenceFragment
+import com.localtype.app.util.Const
+import com.localtype.app.util.addCategory
+import com.localtype.app.util.addPreference
+import com.localtype.app.util.formatDateTime
 
 class AboutFragment : PaddingPreferenceFragment() {
 
