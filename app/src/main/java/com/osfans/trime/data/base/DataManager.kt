@@ -2,15 +2,15 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.base
+package com.localtype.app.data.base
 
 import android.content.res.AssetManager
 import android.os.Build
 import android.os.Environment
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.util.FileUtils
-import com.osfans.trime.util.ResourceUtils
-import com.osfans.trime.util.appContext
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.util.FileUtils
+import com.localtype.app.util.ResourceUtils
+import com.localtype.app.util.appContext
 import kotlinx.serialization.json.Json
 import timber.log.Timber
 import java.io.File
