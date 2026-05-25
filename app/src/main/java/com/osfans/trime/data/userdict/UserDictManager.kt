@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.userdict
+package com.localtype.app.data.userdict
 
-import com.osfans.trime.util.appContext
+import com.localtype.app.util.appContext
 import java.io.File
 import java.io.InputStream
 import java.io.OutputStream
