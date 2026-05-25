@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.clipboard
+package com.localtype.app.ime.clipboard
 
 import android.os.Build
 import android.view.ViewGroup
@@ -11,10 +11,10 @@ import android.widget.PopupMenu
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.osfans.trime.R
-import com.osfans.trime.data.db.DatabaseBean
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.util.item
+import com.localtype.app.R
+import com.localtype.app.data.db.DatabaseBean
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.util.item
 import splitties.resources.styledColor
 import kotlin.math.min
 
