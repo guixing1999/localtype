@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.symbol
+package com.localtype.app.ime.symbol
 
 import android.graphics.Rect
 import android.view.View
