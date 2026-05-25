@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.app.Activity
 import android.content.Intent
@@ -11,10 +11,10 @@ import android.os.Bundle
 import android.view.Gravity
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
-import com.osfans.trime.data.db.ClipboardHelper
-import com.osfans.trime.data.db.CollectionHelper
-import com.osfans.trime.data.db.DatabaseBean
-import com.osfans.trime.databinding.ActivityClipEditBinding
+import com.localtype.app.data.db.ClipboardHelper
+import com.localtype.app.data.db.CollectionHelper
+import com.localtype.app.data.db.DatabaseBean
+import com.localtype.app.databinding.ActivityClipEditBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.NonCancellable
