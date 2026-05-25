@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -35,27 +35,27 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.core.KeyModifiers
-import com.osfans.trime.core.KeyValue
-import com.osfans.trime.core.RimeApi
-import com.osfans.trime.core.RimeKeyMapping
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.prefs.PreferenceDelegate
-import com.osfans.trime.data.prefs.PreferenceDelegateProvider
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.ThemeManager
-import com.osfans.trime.ime.composition.CandidatesView
-import com.osfans.trime.ime.keyboard.InputFeedbackManager
-import com.osfans.trime.receiver.RimeIntentReceiver
-import com.osfans.trime.util.any
-import com.osfans.trime.util.findSectionFrom
-import com.osfans.trime.util.forceShowSelf
-import com.osfans.trime.util.monitorCursorAnchor
-import com.osfans.trime.util.styledFloat
+import com.localtype.app.core.KeyModifiers
+import com.localtype.app.core.KeyValue
+import com.localtype.app.core.RimeApi
+import com.localtype.app.core.RimeKeyMapping
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.prefs.PreferenceDelegate
+import com.localtype.app.data.prefs.PreferenceDelegateProvider
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.ThemeManager
+import com.localtype.app.ime.composition.CandidatesView
+import com.localtype.app.ime.keyboard.InputFeedbackManager
+import com.localtype.app.receiver.RimeIntentReceiver
+import com.localtype.app.util.any
+import com.localtype.app.util.findSectionFrom
+import com.localtype.app.util.forceShowSelf
+import com.localtype.app.util.monitorCursorAnchor
+import com.localtype.app.util.styledFloat
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Job
