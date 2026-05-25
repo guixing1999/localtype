@@ -2,12 +2,12 @@
  * SPDX-FileCopyrightText: 2015 - 2025 Rime community
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
-package com.osfans.trime.ime.popup
+package com.localtype.app.ime.popup
 
 import android.content.Context
 import android.graphics.Rect
 import android.view.View
-import com.osfans.trime.data.theme.Theme
+import com.localtype.app.data.theme.Theme
 import splitties.views.dsl.core.Ui
 import kotlin.math.roundToInt
 
