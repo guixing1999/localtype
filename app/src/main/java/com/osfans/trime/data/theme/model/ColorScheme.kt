@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.theme.model
+package com.localtype.app.data.theme.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
