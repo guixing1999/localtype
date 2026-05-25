@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.content.ClipData
 import android.os.Bundle
@@ -19,14 +19,14 @@ import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updateLayoutParams
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.R
-import com.osfans.trime.TrimeApplication
-import com.osfans.trime.databinding.ActivityLogBinding
-import com.osfans.trime.ui.main.log.LogView
-import com.osfans.trime.util.DeviceInfo
-import com.osfans.trime.util.Logcat
-import com.osfans.trime.util.iso8601UTCDateTime
-import com.osfans.trime.util.toast
+import com.localtype.app.R
+import com.localtype.app.TrimeApplication
+import com.localtype.app.databinding.ActivityLogBinding
+import com.localtype.app.ui.main.log.LogView
+import com.localtype.app.util.DeviceInfo
+import com.localtype.app.util.Logcat
+import com.localtype.app.util.iso8601UTCDateTime
+import com.localtype.app.util.toast
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.launch
