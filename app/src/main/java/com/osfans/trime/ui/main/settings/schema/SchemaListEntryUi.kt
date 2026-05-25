@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.schema
+package com.localtype.app.ui.main.settings.schema
 
 import android.content.Context
 import android.view.View
