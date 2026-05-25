@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ui.setup
+package com.localtype.app.ui.setup
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
