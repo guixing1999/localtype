@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
 import android.content.SharedPreferences
 import android.os.Build
 import androidx.core.content.edit
-import com.osfans.trime.R
-import com.osfans.trime.data.prefs.PreferenceDelegateEnum
-import com.osfans.trime.data.prefs.PreferenceDelegateOwner
+import com.localtype.app.R
+import com.localtype.app.data.prefs.PreferenceDelegateEnum
+import com.localtype.app.data.prefs.PreferenceDelegateOwner
 
 class ThemePrefs(
     sharedPrefs: SharedPreferences,
