@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.clipboard
+package com.localtype.app.ime.clipboard
 
 import android.content.Context
-import com.osfans.trime.R
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.bar.ui.ToolButton
-import com.osfans.trime.ime.core.InputTabLayout
+import com.localtype.app.R
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.bar.ui.ToolButton
+import com.localtype.app.ime.core.InputTabLayout
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.centerVertically
 import splitties.views.dsl.constraintlayout.constraintLayout
