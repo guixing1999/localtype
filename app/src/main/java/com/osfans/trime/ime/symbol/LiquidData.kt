@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.symbol
+package com.localtype.app.ime.symbol
 
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.LiquidKeyboard
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.LiquidKeyboard
 
 object LiquidData {
     enum class Type {
