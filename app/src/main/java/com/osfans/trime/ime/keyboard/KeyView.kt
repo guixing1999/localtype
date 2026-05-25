@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -16,14 +16,14 @@ import android.graphics.drawable.GradientDrawable
 import android.view.KeyEvent
 import com.mikepenz.iconics.IconicsDrawable
 import com.mikepenz.iconics.utils.sizeDp
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.FontManager
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.popup.PopupAction
-import com.osfans.trime.ime.popup.PopupDelegate
-import com.osfans.trime.util.sp
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.FontManager
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.popup.PopupAction
+import com.localtype.app.ime.popup.PopupDelegate
+import com.localtype.app.util.sp
 import splitties.dimensions.dp
 import timber.log.Timber
 
