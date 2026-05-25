@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.log
+package com.localtype.app.ui.main.log
 
 import android.content.Context
 import android.util.AttributeSet
@@ -13,8 +13,8 @@ import androidx.core.text.buildSpannedString
 import androidx.core.text.color
 import androidx.lifecycle.findViewTreeLifecycleOwner
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.R
-import com.osfans.trime.util.Logcat
+import com.localtype.app.R
+import com.localtype.app.util.Logcat
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import splitties.resources.styledColor
