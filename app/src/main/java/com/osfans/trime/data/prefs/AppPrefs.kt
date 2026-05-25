@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.prefs
+package com.localtype.app.data.prefs
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.annotation.Keep
-import com.osfans.trime.R
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.ime.candidates.compact.CompactCandidateMode
-import com.osfans.trime.ime.candidates.popup.PopupCandidatesLayout
-import com.osfans.trime.ime.candidates.popup.PopupCandidatesMode
-import com.osfans.trime.ime.composition.PopupPosition
-import com.osfans.trime.ime.core.InlinePreeditMode
-import com.osfans.trime.util.InputMethodUtils
-import com.osfans.trime.util.appContext
+import com.localtype.app.R
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.ime.candidates.compact.CompactCandidateMode
+import com.localtype.app.ime.candidates.popup.PopupCandidatesLayout
+import com.localtype.app.ime.candidates.popup.PopupCandidatesMode
+import com.localtype.app.ime.composition.PopupPosition
+import com.localtype.app.ime.core.InlinePreeditMode
+import com.localtype.app.util.InputMethodUtils
+import com.localtype.app.util.appContext
 import java.lang.ref.WeakReference
 
 /**
