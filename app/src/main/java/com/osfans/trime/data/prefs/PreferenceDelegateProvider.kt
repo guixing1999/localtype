@@ -2,10 +2,10 @@
  * SPDX-FileCopyrightText: 2015 - 2024 Rime community
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
-package com.osfans.trime.data.prefs
+package com.localtype.app.data.prefs
 
 import androidx.preference.PreferenceScreen
-import com.osfans.trime.util.WeakHashSet
+import com.localtype.app.util.WeakHashSet
 
 abstract class PreferenceDelegateProvider {
     private val _preferenceDelegates: MutableMap<String, PreferenceDelegate<*>> = mutableMapOf()
