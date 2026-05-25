@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.popup
+package com.localtype.app.ime.candidates.popup
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.widget.ImageView
 import androidx.annotation.DrawableRes
-import com.osfans.trime.R
-import com.osfans.trime.core.MenuProto
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.util.styledFloat
+import com.localtype.app.R
+import com.localtype.app.core.MenuProto
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.util.styledFloat
 import splitties.dimensions.dp
 import splitties.resources.drawable
 import splitties.views.dsl.constraintlayout.before
