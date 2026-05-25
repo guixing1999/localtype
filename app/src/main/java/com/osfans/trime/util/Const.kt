@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
-import com.osfans.trime.BuildConfig
+import com.localtype.app.BuildConfig
 
 object Const {
     const val VERSION_NAME = "${BuildConfig.BUILD_VERSION_NAME}-${BuildConfig.BUILD_TYPE}"
