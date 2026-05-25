@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.segments
+package com.localtype.app.ime.segments
 
 import android.content.Context
 import android.view.MotionEvent
