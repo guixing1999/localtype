@@ -2,9 +2,9 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.daemon
+package com.localtype.app.daemon
 
-import com.osfans.trime.core.RimeApi
+import com.localtype.app.core.RimeApi
 import kotlinx.coroutines.CoroutineScope
 
 /**
