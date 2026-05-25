@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 /** 按键行为枚举  */
 enum class KeyBehavior {
