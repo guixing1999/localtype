@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.composition
+package com.localtype.app.ime.composition
 
 import android.annotation.SuppressLint
 import android.content.Context
