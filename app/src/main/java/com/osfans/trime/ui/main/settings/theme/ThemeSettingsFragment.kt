@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.theme
+package com.localtype.app.ui.main.settings.theme
 
 import android.os.Bundle
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
-import com.osfans.trime.data.prefs.PreferenceDelegateFragment
-import com.osfans.trime.data.theme.ThemeManager
-import com.osfans.trime.ui.main.settings.ColorPickerDialog
-import com.osfans.trime.ui.main.settings.ThemePickerDialog
+import com.localtype.app.data.prefs.PreferenceDelegateFragment
+import com.localtype.app.data.theme.ThemeManager
+import com.localtype.app.ui.main.settings.ColorPickerDialog
+import com.localtype.app.ui.main.settings.ThemePickerDialog
 import kotlinx.coroutines.launch
 
 class ThemeSettingsFragment : PreferenceDelegateFragment(ThemeManager.prefs) {
