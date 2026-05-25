@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.segments
+package com.localtype.app.ime.segments
 
 import android.app.SearchManager
 import android.content.ClipData
@@ -15,15 +15,15 @@ import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexWrap
 import com.google.android.flexbox.FlexboxLayout
 import com.google.android.flexbox.FlexboxLayoutManager
-import com.osfans.trime.R
-import com.osfans.trime.data.db.CollectionHelper
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.keyboard.KeyboardWindow
-import com.osfans.trime.ime.window.BoardWindow
-import com.osfans.trime.ime.window.BoardWindowManager
-import com.osfans.trime.util.NativeTokenizer
-import com.osfans.trime.util.toast
+import com.localtype.app.R
+import com.localtype.app.data.db.CollectionHelper
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.keyboard.KeyboardWindow
+import com.localtype.app.ime.window.BoardWindow
+import com.localtype.app.ime.window.BoardWindowManager
+import com.localtype.app.util.NativeTokenizer
+import com.localtype.app.util.toast
 import kotlinx.coroutines.launch
 import org.kodein.di.instance
 import splitties.dimensions.dp
