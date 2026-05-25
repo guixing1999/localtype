@@ -3,12 +3,12 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.unrolled
+package com.localtype.app.ime.candidates.unrolled
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.osfans.trime.core.CandidateItem
-import com.osfans.trime.daemon.RimeSession
+import com.localtype.app.core.CandidateItem
+import com.localtype.app.daemon.RimeSession
 import timber.log.Timber
 
 class CandidatesPagingSource(
