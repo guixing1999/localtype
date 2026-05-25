@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.composition
+package com.localtype.app.ime.composition
 
-import com.osfans.trime.R
-import com.osfans.trime.data.prefs.PreferenceDelegateEnum
+import com.localtype.app.R
+import com.localtype.app.data.prefs.PreferenceDelegateEnum
 
 enum class PopupPosition(
     override val stringRes: Int,
