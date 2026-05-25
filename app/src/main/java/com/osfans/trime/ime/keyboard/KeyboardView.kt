@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Canvas
 import android.widget.FrameLayout
 import androidx.core.view.children
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.broadcast.EnterKeyDisplayDelegate
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.popup.PopupDelegate
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.broadcast.EnterKeyDisplayDelegate
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.popup.PopupDelegate
 
 // TODO: move layout calculation responsibilities from Keyboard to KeyboardView using ConstraintLayout
 @SuppressLint("ViewConstructor")
