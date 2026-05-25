@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.bar.ui
+package com.localtype.app.ime.bar.ui
 
 import android.content.Context
 import android.graphics.Typeface
 import android.view.View
 import androidx.core.view.isVisible
-import com.osfans.trime.R
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
+import com.localtype.app.R
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.after
 import splitties.views.dsl.constraintlayout.centerHorizontally
