@@ -2,14 +2,14 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.candidates.unrolled
+package com.localtype.app.ime.candidates.unrolled
 
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.osfans.trime.R
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
+import com.localtype.app.R
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.centerInParent
 import splitties.views.dsl.constraintlayout.lParams
