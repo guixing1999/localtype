@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.schema
+package com.localtype.app.ui.main.settings.schema
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -14,9 +14,9 @@ import androidx.annotation.CallSuper
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.chad.library.adapter4.BaseQuickAdapter
-import com.osfans.trime.core.SchemaItem
-import com.osfans.trime.ui.common.OnItemChangedListener
-import com.osfans.trime.ui.main.MainViewModel
+import com.localtype.app.core.SchemaItem
+import com.localtype.app.ui.common.OnItemChangedListener
+import com.localtype.app.ui.main.MainViewModel
 
 open class SchemaListAdapter(
     items: List<SchemaItem>,
