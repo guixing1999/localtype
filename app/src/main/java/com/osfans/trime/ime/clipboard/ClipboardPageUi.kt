@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.clipboard
+package com.localtype.app.ime.clipboard
 
 import android.content.Context
 import android.widget.FrameLayout
-import com.osfans.trime.ime.symbol.SpacesItemDecoration
+import com.localtype.app.ime.symbol.SpacesItemDecoration
 import splitties.dimensions.dp
 import splitties.views.dsl.core.Ui
 import splitties.views.dsl.core.add
