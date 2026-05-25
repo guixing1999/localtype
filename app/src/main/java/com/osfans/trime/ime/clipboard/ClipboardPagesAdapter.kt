@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.clipboard
+package com.localtype.app.ime.clipboard
 
 import android.view.View
 import android.view.ViewGroup
