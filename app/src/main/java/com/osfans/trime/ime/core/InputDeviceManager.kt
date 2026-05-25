@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import android.text.InputType
 import android.view.KeyEvent
 import android.view.MotionEvent
 import android.view.View
 import android.view.inputmethod.EditorInfo
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.ime.candidates.popup.PopupCandidatesMode
-import com.osfans.trime.ime.composition.CandidatesView
-import com.osfans.trime.util.monitorCursorAnchor
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.ime.candidates.popup.PopupCandidatesMode
+import com.localtype.app.ime.composition.CandidatesView
+import com.localtype.app.util.monitorCursorAnchor
 
 class InputDeviceManager(
     private val onChange: (Boolean) -> Unit,
