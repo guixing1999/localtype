@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.db
+package com.localtype.app.data.db
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -11,11 +11,11 @@ import android.os.Build
 import androidx.annotation.Keep
 import androidx.room.Room
 import androidx.room.withTransaction
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.prefs.PreferenceDelegate
-import com.osfans.trime.util.WeakHashSet
-import com.osfans.trime.util.matchesAny
-import com.osfans.trime.util.removeRegexSet
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.prefs.PreferenceDelegate
+import com.localtype.app.util.WeakHashSet
+import com.localtype.app.util.matchesAny
+import com.localtype.app.util.removeRegexSet
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
