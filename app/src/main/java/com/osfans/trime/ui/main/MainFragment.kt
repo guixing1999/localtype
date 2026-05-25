@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.os.Bundle
 import androidx.annotation.DrawableRes
@@ -11,11 +11,11 @@ import androidx.annotation.StringRes
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.preference.PreferenceGroup
-import com.osfans.trime.R
-import com.osfans.trime.ui.common.PaddingPreferenceFragment
-import com.osfans.trime.util.addCategory
-import com.osfans.trime.util.addPreference
-import com.osfans.trime.util.navigateWithAnim
+import com.localtype.app.R
+import com.localtype.app.ui.common.PaddingPreferenceFragment
+import com.localtype.app.util.addCategory
+import com.localtype.app.util.addPreference
+import com.localtype.app.util.navigateWithAnim
 
 class MainFragment : PaddingPreferenceFragment() {
     private val viewModel: MainViewModel by activityViewModels()
