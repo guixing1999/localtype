@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings
+package com.localtype.app.ui.main.settings
 
 import android.content.Context
 import android.content.res.TypedArray
@@ -11,7 +11,7 @@ import android.util.AttributeSet
 import android.widget.SeekBar
 import androidx.appcompat.app.AlertDialog
 import androidx.preference.DialogPreference
-import com.osfans.trime.R
+import com.localtype.app.R
 import splitties.dimensions.dp
 import splitties.resources.resolveThemeAttribute
 import splitties.views.dsl.core.add
