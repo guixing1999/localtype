@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.content.Intent
 import android.os.Bundle
@@ -26,18 +26,18 @@ import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.fragment.NavHostFragment
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.osfans.trime.BuildConfig
-import com.osfans.trime.R
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.soundeffect.SoundEffectManager
-import com.osfans.trime.databinding.ActivityMainBinding
-import com.osfans.trime.ui.setup.SetupActivity
-import com.osfans.trime.util.isStorageAvailable
-import com.osfans.trime.util.item
-import com.osfans.trime.util.parcelable
-import com.osfans.trime.util.startActivity
-import com.osfans.trime.worker.BackgroundSyncWork
+import com.localtype.app.BuildConfig
+import com.localtype.app.R
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.soundeffect.SoundEffectManager
+import com.localtype.app.databinding.ActivityMainBinding
+import com.localtype.app.ui.setup.SetupActivity
+import com.localtype.app.util.isStorageAvailable
+import com.localtype.app.util.item
+import com.localtype.app.util.parcelable
+import com.localtype.app.util.startActivity
+import com.localtype.app.worker.BackgroundSyncWork
 import splitties.resources.styledColor
 import splitties.views.topPadding
 
