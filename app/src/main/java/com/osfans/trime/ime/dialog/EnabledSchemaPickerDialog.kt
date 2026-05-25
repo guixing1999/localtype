@@ -2,13 +2,13 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.dialog
+package com.localtype.app.ime.dialog
 
 import android.app.AlertDialog
 import android.content.Context
 import androidx.lifecycle.LifecycleCoroutineScope
-import com.osfans.trime.R
-import com.osfans.trime.core.RimeApi
+import com.localtype.app.R
+import com.localtype.app.core.RimeApi
 import kotlinx.coroutines.launch
 import splitties.systemservices.inputMethodManager
 
