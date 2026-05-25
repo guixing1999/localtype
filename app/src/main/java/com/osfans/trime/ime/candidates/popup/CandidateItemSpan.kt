@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.popup
+package com.localtype.app.ime.candidates.popup
 
 import android.graphics.Typeface
 import android.text.TextPaint
