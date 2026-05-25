@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.candidates.unrolled.decoration
+package com.localtype.app.ime.candidates.unrolled.decoration
 
 import android.graphics.Canvas
 import android.graphics.Rect
