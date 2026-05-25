@@ -2,13 +2,13 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ui.main.settings
+package com.localtype.app.ui.main.settings
 
 import android.app.AlertDialog
 import android.content.Context
 import androidx.lifecycle.LifecycleCoroutineScope
-import com.osfans.trime.R
-import com.osfans.trime.data.theme.ThemeManager
+import com.localtype.app.R
+import com.localtype.app.data.theme.ThemeManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
