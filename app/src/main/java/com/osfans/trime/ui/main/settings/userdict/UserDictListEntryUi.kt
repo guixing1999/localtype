@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.userdict
+package com.localtype.app.ui.main.settings.userdict
 
 import android.content.Context
 import android.view.ViewGroup
-import com.osfans.trime.R
+import com.localtype.app.R
 import splitties.dimensions.dp
 import splitties.resources.drawable
 import splitties.resources.resolveThemeAttribute
