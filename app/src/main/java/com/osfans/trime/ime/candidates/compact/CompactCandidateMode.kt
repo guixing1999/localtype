@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.compact
+package com.localtype.app.ime.candidates.compact
 
-import com.osfans.trime.R
-import com.osfans.trime.data.prefs.PreferenceDelegateEnum
+import com.localtype.app.R
+import com.localtype.app.data.prefs.PreferenceDelegateEnum
 
 enum class CompactCandidateMode(
     override val stringRes: Int,
