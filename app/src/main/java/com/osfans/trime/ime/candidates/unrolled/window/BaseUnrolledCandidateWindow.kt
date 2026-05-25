@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.unrolled.window
+package com.localtype.app.ime.candidates.unrolled.window
 
 import android.graphics.drawable.ShapeDrawable
 import android.graphics.drawable.shapes.RectShape
@@ -14,23 +14,23 @@ import androidx.lifecycle.lifecycleScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.recyclerview.widget.RecyclerView
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.bar.InputBarDelegate
-import com.osfans.trime.ime.bar.UnrollButtonStateMachine
-import com.osfans.trime.ime.broadcast.InputBroadcastReceiver
-import com.osfans.trime.ime.candidates.CandidateViewHolder
-import com.osfans.trime.ime.candidates.compact.CompactCandidateDelegate
-import com.osfans.trime.ime.candidates.unrolled.CandidatesPagingSource
-import com.osfans.trime.ime.candidates.unrolled.PagingCandidateViewAdapter
-import com.osfans.trime.ime.candidates.unrolled.UnrolledCandidateLayout
-import com.osfans.trime.ime.core.InputView
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.keyboard.KeyboardWindow
-import com.osfans.trime.ime.window.BoardWindow
-import com.osfans.trime.ime.window.BoardWindowManager
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.bar.InputBarDelegate
+import com.localtype.app.ime.bar.UnrollButtonStateMachine
+import com.localtype.app.ime.broadcast.InputBroadcastReceiver
+import com.localtype.app.ime.candidates.CandidateViewHolder
+import com.localtype.app.ime.candidates.compact.CompactCandidateDelegate
+import com.localtype.app.ime.candidates.unrolled.CandidatesPagingSource
+import com.localtype.app.ime.candidates.unrolled.PagingCandidateViewAdapter
+import com.localtype.app.ime.candidates.unrolled.UnrolledCandidateLayout
+import com.localtype.app.ime.core.InputView
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.keyboard.KeyboardWindow
+import com.localtype.app.ime.window.BoardWindow
+import com.localtype.app.ime.window.BoardWindowManager
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
