@@ -5,10 +5,10 @@
 /**
  * Adapted from [fcitx5-android/Logcat.kt](https://github.com/fcitx5-android/fcitx5-android/blob/e44c1c7/app/src/main/java/org/fcitx/fcitx5/android/utils/Logcat.kt)
  */
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.os.Process
-import com.osfans.trime.R
+import com.localtype.app.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.Dispatchers
