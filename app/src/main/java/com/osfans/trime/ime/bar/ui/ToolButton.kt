@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.bar.ui
+package com.localtype.app.ime.bar.ui
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -17,13 +17,13 @@ import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import com.mikepenz.iconics.IconicsDrawable
 import com.mikepenz.iconics.utils.sizeDp
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.FontManager
-import com.osfans.trime.data.theme.KeyActionManager
-import com.osfans.trime.data.theme.model.ToolBar
-import com.osfans.trime.ime.keyboard.GestureFrame
-import com.osfans.trime.ime.keyboard.KeyboardSwitcher
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.FontManager
+import com.localtype.app.data.theme.KeyActionManager
+import com.localtype.app.data.theme.model.ToolBar
+import com.localtype.app.ime.keyboard.GestureFrame
+import com.localtype.app.ime.keyboard.KeyboardSwitcher
 import splitties.dimensions.dp
 import splitties.views.dsl.core.add
 import splitties.views.dsl.core.imageView
