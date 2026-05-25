@@ -3,20 +3,20 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
 import android.os.Parcelable
-import com.osfans.trime.data.theme.model.ColorScheme
-import com.osfans.trime.data.theme.model.GeneralStyle
-import com.osfans.trime.data.theme.model.LiquidKeyboard
-import com.osfans.trime.data.theme.model.Preedit
-import com.osfans.trime.data.theme.model.PresetKey
-import com.osfans.trime.data.theme.model.TextKeyboard
-import com.osfans.trime.data.theme.model.ToolBar
-import com.osfans.trime.data.theme.model.Window
-import com.osfans.trime.util.yaml.Node
-import com.osfans.trime.util.yaml.mapping
-import com.osfans.trime.util.yaml.string
+import com.localtype.app.data.theme.model.ColorScheme
+import com.localtype.app.data.theme.model.GeneralStyle
+import com.localtype.app.data.theme.model.LiquidKeyboard
+import com.localtype.app.data.theme.model.Preedit
+import com.localtype.app.data.theme.model.PresetKey
+import com.localtype.app.data.theme.model.TextKeyboard
+import com.localtype.app.data.theme.model.ToolBar
+import com.localtype.app.data.theme.model.Window
+import com.localtype.app.util.yaml.Node
+import com.localtype.app.util.yaml.mapping
+import com.localtype.app.util.yaml.string
 import kotlinx.parcelize.Parcelize
 
 /** 主题和样式配置  */
