@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "trime"
+rootProject.name = "localtype"
 include(":app")
 include(":codegen")
