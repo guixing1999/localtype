@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.window
+package com.localtype.app.ime.window
 
 /**
  * An empty interface marks that the instance and view of the window will be kept in the window manager,
