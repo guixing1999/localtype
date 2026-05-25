@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
 import android.content.res.Configuration
-import com.osfans.trime.core.Rime
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.ime.symbol.LiquidData
-import com.osfans.trime.util.WeakHashSet
-import com.osfans.trime.util.yaml.Yaml
-import com.osfans.trime.util.yaml.mapping
+import com.localtype.app.core.Rime
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.ime.symbol.LiquidData
+import com.localtype.app.util.WeakHashSet
+import com.localtype.app.util.yaml.Yaml
+import com.localtype.app.util.yaml.mapping
 import timber.log.Timber
 import java.io.File
 
