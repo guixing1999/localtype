@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.content.Context
 import android.graphics.Point
 import android.os.Build
 import android.view.KeyEvent
 import android.view.WindowInsets
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.TextKeyboard
-import com.osfans.trime.ime.keyboard.KeyboardPrefs.isLandscapeMode
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.TextKeyboard
+import com.localtype.app.ime.keyboard.KeyboardPrefs.isLandscapeMode
 import splitties.bitflags.hasFlag
 import splitties.dimensions.dp
 import splitties.systemservices.windowManager
