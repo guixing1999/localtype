@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.schema
+package com.localtype.app.ui.main.settings.schema
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -21,9 +21,9 @@ import com.google.android.material.behavior.HideBottomViewOnScrollBehavior
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
-import com.osfans.trime.R
-import com.osfans.trime.core.SchemaItem
-import com.osfans.trime.ui.common.OnItemChangedListener
+import com.localtype.app.R
+import com.localtype.app.core.SchemaItem
+import com.localtype.app.ui.common.OnItemChangedListener
 import splitties.dimensions.dp
 import splitties.resources.drawable
 import splitties.resources.styledColor
