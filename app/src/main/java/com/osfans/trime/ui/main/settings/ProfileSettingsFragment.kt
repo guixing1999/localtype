@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings
+package com.localtype.app.ui.main.settings
 
 import android.net.Uri
 import android.os.Bundle
@@ -16,21 +16,21 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.SwitchPreferenceCompat
-import com.osfans.trime.R
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.prefs.PreferenceDelegate
-import com.osfans.trime.ui.common.PaddingPreferenceFragment
-import com.osfans.trime.ui.common.withLoadingDialog
-import com.osfans.trime.ui.main.MainViewModel
-import com.osfans.trime.util.ResourceUtils
-import com.osfans.trime.util.addCategory
-import com.osfans.trime.util.addPreference
-import com.osfans.trime.util.customFormatTimeInDefault
-import com.osfans.trime.util.getFileFromUri
-import com.osfans.trime.util.getUriForFile
-import com.osfans.trime.util.toast
+import com.localtype.app.R
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.prefs.PreferenceDelegate
+import com.localtype.app.ui.common.PaddingPreferenceFragment
+import com.localtype.app.ui.common.withLoadingDialog
+import com.localtype.app.ui.main.MainViewModel
+import com.localtype.app.util.ResourceUtils
+import com.localtype.app.util.addCategory
+import com.localtype.app.util.addPreference
+import com.localtype.app.util.customFormatTimeInDefault
+import com.localtype.app.util.getFileFromUri
+import com.localtype.app.util.getUriForFile
+import com.localtype.app.util.toast
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import splitties.dimensions.dp
