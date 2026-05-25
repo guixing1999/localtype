@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import androidx.annotation.StringRes
-import com.osfans.trime.R
-import com.osfans.trime.data.prefs.PreferenceDelegateEnum
+import com.localtype.app.R
+import com.localtype.app.data.prefs.PreferenceDelegateEnum
 
 enum class InlinePreeditMode(
     @StringRes override val stringRes: Int,
