@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.popup
+package com.localtype.app.ime.popup
 
 import android.graphics.Rect
 
