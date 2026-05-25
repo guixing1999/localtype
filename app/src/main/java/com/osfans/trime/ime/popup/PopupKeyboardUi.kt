@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: 2015 - 2025 Rime community
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
-package com.osfans.trime.ime.popup
+package com.localtype.app.ime.popup
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -14,14 +14,14 @@ import androidx.appcompat.widget.AppCompatImageView
 import androidx.core.view.isVisible
 import com.mikepenz.iconics.IconicsDrawable
 import com.mikepenz.iconics.utils.sizeDp
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.FontManager
-import com.osfans.trime.data.theme.KeyActionManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.core.AutoScaleTextView
-import com.osfans.trime.ime.keyboard.KeyboardSwitcher
-import com.osfans.trime.ime.keyboard.isIconFont
-import com.osfans.trime.ime.keyboard.toIconName
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.FontManager
+import com.localtype.app.data.theme.KeyActionManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.core.AutoScaleTextView
+import com.localtype.app.ime.keyboard.KeyboardSwitcher
+import com.localtype.app.ime.keyboard.isIconFont
+import com.localtype.app.ime.keyboard.toIconName
 import splitties.dimensions.dp
 import splitties.views.dsl.core.Ui
 import splitties.views.dsl.core.add
