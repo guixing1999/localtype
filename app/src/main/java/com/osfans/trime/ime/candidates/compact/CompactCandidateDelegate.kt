@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.compact
+package com.localtype.app.ime.candidates.compact
 
 import android.content.Context
 import android.content.res.Configuration
@@ -12,20 +12,20 @@ import android.graphics.drawable.shapes.RectShape
 import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.flexbox.FlexboxLayoutManager
-import com.osfans.trime.R
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.bar.InputBarDelegate
-import com.osfans.trime.ime.bar.UnrollButtonStateMachine
-import com.osfans.trime.ime.broadcast.InputBroadcastReceiver
-import com.osfans.trime.ime.candidates.unrolled.decoration.FlexboxVerticalDecoration
-import com.osfans.trime.ime.core.InputView
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.dependency.InputDependencyManager
+import com.localtype.app.R
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.bar.InputBarDelegate
+import com.localtype.app.ime.bar.UnrollButtonStateMachine
+import com.localtype.app.ime.broadcast.InputBroadcastReceiver
+import com.localtype.app.ime.candidates.unrolled.decoration.FlexboxVerticalDecoration
+import com.localtype.app.ime.core.InputView
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.dependency.InputDependencyManager
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
