@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.content.Context
 import android.os.Environment
 import com.hjq.permissions.OnPermissionCallback
 import com.hjq.permissions.Permission
 import com.hjq.permissions.XXPermissions
-import com.osfans.trime.R
+import com.localtype.app.R
 
 @Suppress("NOTHING_TO_INLINE")
 inline fun Context.isStorageAvailable(): Boolean = XXPermissions.isGranted(this, Permission.MANAGE_EXTERNAL_STORAGE) &&
