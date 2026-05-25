@@ -2,14 +2,14 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ui.setup
+package com.localtype.app.ui.setup
 
 import android.content.Context
-import com.osfans.trime.R
-import com.osfans.trime.util.InputMethodUtils
-import com.osfans.trime.util.appContext
-import com.osfans.trime.util.isStorageAvailable
-import com.osfans.trime.util.requestExternalStoragePermission
+import com.localtype.app.R
+import com.localtype.app.util.InputMethodUtils
+import com.localtype.app.util.appContext
+import com.localtype.app.util.isStorageAvailable
+import com.localtype.app.util.requestExternalStoragePermission
 
 enum class SetupPage {
     Permissions,
