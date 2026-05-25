@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.bar
+package com.localtype.app.ime.bar
 
-import com.osfans.trime.ime.bar.UnrollButtonStateMachine.BooleanKey.UnrolledCandidatesEmpty
-import com.osfans.trime.ime.bar.UnrollButtonStateMachine.BooleanKey.UnrolledCandidatesHighlighted
-import com.osfans.trime.ime.bar.UnrollButtonStateMachine.State.ClickToAttachWindow
-import com.osfans.trime.ime.bar.UnrollButtonStateMachine.State.ClickToDetachWindow
-import com.osfans.trime.ime.bar.UnrollButtonStateMachine.State.Hidden
-import com.osfans.trime.util.BuildTransitionEvent
-import com.osfans.trime.util.EventStateMachine
-import com.osfans.trime.util.TransitionBuildBlock
+import com.localtype.app.ime.bar.UnrollButtonStateMachine.BooleanKey.UnrolledCandidatesEmpty
+import com.localtype.app.ime.bar.UnrollButtonStateMachine.BooleanKey.UnrolledCandidatesHighlighted
+import com.localtype.app.ime.bar.UnrollButtonStateMachine.State.ClickToAttachWindow
+import com.localtype.app.ime.bar.UnrollButtonStateMachine.State.ClickToDetachWindow
+import com.localtype.app.ime.bar.UnrollButtonStateMachine.State.Hidden
+import com.localtype.app.util.BuildTransitionEvent
+import com.localtype.app.util.EventStateMachine
+import com.localtype.app.util.TransitionBuildBlock
 
 object UnrollButtonStateMachine {
     enum class State {
