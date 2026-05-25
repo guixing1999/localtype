@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.popup
+package com.localtype.app.ime.candidates.popup
 
 import android.content.Context
 import android.view.View
@@ -15,9 +15,9 @@ import com.google.android.flexbox.AlignItems
 import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexWrap
 import com.google.android.flexbox.FlexboxLayoutManager
-import com.osfans.trime.core.CandidateProto
-import com.osfans.trime.core.MenuProto
-import com.osfans.trime.data.theme.Theme
+import com.localtype.app.core.CandidateProto
+import com.localtype.app.core.MenuProto
+import com.localtype.app.data.theme.Theme
 import splitties.views.dsl.core.Ui
 import splitties.views.dsl.recyclerview.recyclerView
 
