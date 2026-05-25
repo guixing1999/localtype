@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.clipboard
+package com.localtype.app.ime.clipboard
 
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.viewpager2.widget.ViewPager2
-import com.osfans.trime.data.theme.Theme
+import com.localtype.app.data.theme.Theme
 import splitties.views.dsl.constraintlayout.centerInParent
 import splitties.views.dsl.constraintlayout.lParams
 import splitties.views.dsl.core.add
