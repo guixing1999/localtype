@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.content.Context
 import android.media.AudioAttributes
@@ -17,8 +17,8 @@ import android.view.HapticFeedbackConstants
 import android.view.KeyEvent
 import android.view.View
 import androidx.core.util.containsValue
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.soundeffect.SoundEffectManager
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.soundeffect.SoundEffectManager
 import splitties.systemservices.audioManager
 import splitties.systemservices.vibrator
 import timber.log.Timber
