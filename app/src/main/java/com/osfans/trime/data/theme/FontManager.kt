@@ -2,14 +2,14 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
 import android.graphics.Typeface
 import android.graphics.fonts.Font
 import android.graphics.fonts.FontFamily
 import android.os.Build
 import androidx.annotation.RequiresApi
-import com.osfans.trime.data.base.DataManager
+import com.localtype.app.data.base.DataManager
 import timber.log.Timber
 import java.io.File
 
