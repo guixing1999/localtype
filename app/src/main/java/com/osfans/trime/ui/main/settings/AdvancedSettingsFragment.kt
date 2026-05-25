@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings
+package com.localtype.app.ui.main.settings
 
 import android.content.ComponentName
 import android.content.Context
@@ -11,9 +11,9 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.annotation.Keep
 import androidx.appcompat.app.AppCompatDelegate
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.prefs.PreferenceDelegate
-import com.osfans.trime.data.prefs.PreferenceDelegateFragment
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.prefs.PreferenceDelegate
+import com.localtype.app.data.prefs.PreferenceDelegateFragment
 
 class AdvancedSettingsFragment : PreferenceDelegateFragment(AppPrefs.defaultInstance().advanced) {
 
