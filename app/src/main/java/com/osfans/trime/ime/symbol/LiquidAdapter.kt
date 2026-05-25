@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.symbol
+package com.localtype.app.ime.symbol
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
 import androidx.recyclerview.widget.RecyclerView
 import com.chad.library.adapter4.BaseQuickAdapter
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.LiquidKeyboard
-import com.osfans.trime.ime.core.AutoScaleTextView
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.LiquidKeyboard
+import com.localtype.app.ime.core.AutoScaleTextView
 import splitties.dimensions.dp
 import splitties.views.gravityCenter
 
