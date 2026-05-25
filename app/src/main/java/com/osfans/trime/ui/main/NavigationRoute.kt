@@ -3,22 +3,22 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import android.os.Parcelable
 import androidx.navigation.NavController
 import androidx.navigation.createGraph
 import androidx.navigation.fragment.fragment
-import com.osfans.trime.R
-import com.osfans.trime.ui.main.settings.AdvancedSettingsFragment
-import com.osfans.trime.ui.main.settings.CandidatesSettingsFragment
-import com.osfans.trime.ui.main.settings.ClipboardSettingsFragment
-import com.osfans.trime.ui.main.settings.GeneralSettingsFragment
-import com.osfans.trime.ui.main.settings.KeyboardSettingsFragment
-import com.osfans.trime.ui.main.settings.ProfileSettingsFragment
-import com.osfans.trime.ui.main.settings.schema.SchemaListFragment
-import com.osfans.trime.ui.main.settings.theme.ThemeSettingsFragment
-import com.osfans.trime.ui.main.settings.userdict.UserDictionaryFragment
+import com.localtype.app.R
+import com.localtype.app.ui.main.settings.AdvancedSettingsFragment
+import com.localtype.app.ui.main.settings.CandidatesSettingsFragment
+import com.localtype.app.ui.main.settings.ClipboardSettingsFragment
+import com.localtype.app.ui.main.settings.GeneralSettingsFragment
+import com.localtype.app.ui.main.settings.KeyboardSettingsFragment
+import com.localtype.app.ui.main.settings.ProfileSettingsFragment
+import com.localtype.app.ui.main.settings.schema.SchemaListFragment
+import com.localtype.app.ui.main.settings.theme.ThemeSettingsFragment
+import com.localtype.app.ui.main.settings.userdict.UserDictionaryFragment
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.Serializable
 
