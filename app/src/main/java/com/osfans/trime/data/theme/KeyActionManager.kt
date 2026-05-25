@@ -2,10 +2,10 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
 import android.view.KeyEvent
-import com.osfans.trime.ime.keyboard.KeyAction
+import com.localtype.app.ime.keyboard.KeyAction
 
 object KeyActionManager {
     private val actionCache = mutableMapOf<String, KeyAction>()
