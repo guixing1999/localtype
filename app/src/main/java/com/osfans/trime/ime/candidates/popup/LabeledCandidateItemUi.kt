@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.popup
+package com.localtype.app.ime.candidates.popup
 
 import android.content.Context
 import android.graphics.Color
@@ -13,11 +13,11 @@ import android.text.SpannableStringBuilder
 import androidx.annotation.ColorInt
 import androidx.core.text.buildSpannedString
 import androidx.core.text.inSpans
-import com.osfans.trime.core.CandidateProto
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.FontManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.util.sp
+import com.localtype.app.core.CandidateProto
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.FontManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.util.sp
 import splitties.dimensions.dp
 import splitties.views.dsl.core.Ui
 import splitties.views.dsl.core.textView
