@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.switches
+package com.localtype.app.ime.switches
 
 import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.chad.library.adapter4.BaseQuickAdapter
-import com.osfans.trime.data.theme.Theme
+import com.localtype.app.data.theme.Theme
 
 abstract class SwitchOptionAdapter : BaseQuickAdapter<SwitchOptionEntry, SwitchOptionAdapter.ViewHolder>() {
     inner class ViewHolder(
