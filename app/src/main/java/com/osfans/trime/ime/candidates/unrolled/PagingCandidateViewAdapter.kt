@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.unrolled
+package com.localtype.app.ime.candidates.unrolled
 
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
-import com.osfans.trime.core.CandidateItem
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.candidates.CandidateItemUi
-import com.osfans.trime.ime.candidates.CandidateViewHolder
+import com.localtype.app.core.CandidateItem
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.candidates.CandidateItemUi
+import com.localtype.app.ime.candidates.CandidateViewHolder
 
 open class PagingCandidateViewAdapter(
     val theme: Theme,
