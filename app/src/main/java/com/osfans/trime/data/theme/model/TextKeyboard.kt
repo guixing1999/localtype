@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.theme.model
+package com.localtype.app.data.theme.model
 
 import android.os.Parcelable
-import com.osfans.trime.ime.keyboard.KeyBehavior
-import com.osfans.trime.util.yaml.Node
-import com.osfans.trime.util.yaml.boolean
-import com.osfans.trime.util.yaml.enum
-import com.osfans.trime.util.yaml.float
-import com.osfans.trime.util.yaml.int
-import com.osfans.trime.util.yaml.mapping
-import com.osfans.trime.util.yaml.sequence
-import com.osfans.trime.util.yaml.string
+import com.localtype.app.ime.keyboard.KeyBehavior
+import com.localtype.app.util.yaml.Node
+import com.localtype.app.util.yaml.boolean
+import com.localtype.app.util.yaml.enum
+import com.localtype.app.util.yaml.float
+import com.localtype.app.util.yaml.int
+import com.localtype.app.util.yaml.mapping
+import com.localtype.app.util.yaml.sequence
+import com.localtype.app.util.yaml.string
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
