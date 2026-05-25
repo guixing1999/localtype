@@ -3,24 +3,24 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.dependency
+package com.localtype.app.ime.dependency
 
 import android.content.Context
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.bar.InputBarDelegate
-import com.osfans.trime.ime.broadcast.EnterKeyDisplayDelegate
-import com.osfans.trime.ime.broadcast.InputBroadcastReceiver
-import com.osfans.trime.ime.broadcast.InputBroadcaster
-import com.osfans.trime.ime.candidates.compact.CompactCandidateDelegate
-import com.osfans.trime.ime.composition.PreeditDelegate
-import com.osfans.trime.ime.core.InputView
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.keyboard.CommonKeyboardActionListener
-import com.osfans.trime.ime.keyboard.KeyboardWindow
-import com.osfans.trime.ime.popup.PopupDelegate
-import com.osfans.trime.ime.symbol.LiquidWindow
-import com.osfans.trime.ime.window.BoardWindowManager
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.bar.InputBarDelegate
+import com.localtype.app.ime.broadcast.EnterKeyDisplayDelegate
+import com.localtype.app.ime.broadcast.InputBroadcastReceiver
+import com.localtype.app.ime.broadcast.InputBroadcaster
+import com.localtype.app.ime.candidates.compact.CompactCandidateDelegate
+import com.localtype.app.ime.composition.PreeditDelegate
+import com.localtype.app.ime.core.InputView
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.keyboard.CommonKeyboardActionListener
+import com.localtype.app.ime.keyboard.KeyboardWindow
+import com.localtype.app.ime.popup.PopupDelegate
+import com.localtype.app.ime.symbol.LiquidWindow
+import com.localtype.app.ime.window.BoardWindowManager
 import org.kodein.di.DI
 import org.kodein.di.allInstances
 import org.kodein.di.bindSingleton
