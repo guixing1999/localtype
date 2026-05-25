@@ -2,16 +2,16 @@
  * SPDX-FileCopyrightText: 2015 - 2025 Rime community
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
-package com.osfans.trime.ime.popup
+package com.localtype.app.ime.popup
 
 import android.content.Context
 import android.graphics.Rect
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.dependency.InputDependencyManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.dependency.InputDependencyManager
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
