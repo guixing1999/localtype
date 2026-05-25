@@ -7,11 +7,11 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
-    id("com.osfans.trime.app-convention")
-    id("com.osfans.trime.native-app-convention")
-    id("com.osfans.trime.data-checksums")
-    id("com.osfans.trime.native-cache-hash")
-    id("com.osfans.trime.opencc-data")
+    id("com.localtype.app.app-convention")
+    id("com.localtype.app.native-app-convention")
+    id("com.localtype.app.data-checksums")
+    id("com.localtype.app.native-cache-hash")
+    id("com.localtype.app.opencc-data")
     alias(libs.plugins.aboutlibraries)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.serialization)

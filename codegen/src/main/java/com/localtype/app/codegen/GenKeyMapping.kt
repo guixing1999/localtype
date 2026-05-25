@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.codegen
+package com.localtype.app.codegen
 
 import com.google.devtools.ksp.processing.Resolver
 import com.google.devtools.ksp.processing.SymbolProcessor
@@ -297,7 +297,7 @@ internal class GenKeyMappingProcessor(
 
         val file =
             FileSpec
-                .builder("com.osfans.trime.core", "RimeKeyMapping")
+                .builder("com.localtype.app.core", "RimeKeyMapping")
                 .addType(obj)
                 .addImport("android.view", "KeyEvent")
                 .build()

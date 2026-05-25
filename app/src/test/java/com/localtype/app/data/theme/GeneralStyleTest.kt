@@ -2,11 +2,11 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.theme
+package com.localtype.app.data.theme
 
-import com.osfans.trime.BuildConfig
-import com.osfans.trime.core.Rime
-import com.osfans.trime.data.theme.model.GeneralStyle
+import com.localtype.app.BuildConfig
+import com.localtype.app.core.Rime
+import com.localtype.app.data.theme.model.GeneralStyle
 import io.kotest.core.spec.style.BehaviorSpec
 import io.kotest.matchers.shouldBe
 import io.kotest.matchers.shouldNotBe
