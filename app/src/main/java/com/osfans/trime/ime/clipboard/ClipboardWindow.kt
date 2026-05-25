@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.clipboard
+package com.localtype.app.ime.clipboard
 
 import android.app.AlertDialog
 import android.content.Intent
@@ -12,21 +12,21 @@ import android.view.View
 import androidx.lifecycle.lifecycleScope
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
-import com.osfans.trime.R
-import com.osfans.trime.data.db.ClipboardHelper
-import com.osfans.trime.data.db.CollectionHelper
-import com.osfans.trime.data.db.DatabaseBean
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.FontManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.keyboard.KeyboardWindow
-import com.osfans.trime.ime.segments.SegmentsWindow
-import com.osfans.trime.ime.window.BoardWindow
-import com.osfans.trime.ime.window.BoardWindowManager
-import com.osfans.trime.ui.main.ClipEditActivity
-import com.osfans.trime.util.AppUtils
+import com.localtype.app.R
+import com.localtype.app.data.db.ClipboardHelper
+import com.localtype.app.data.db.CollectionHelper
+import com.localtype.app.data.db.DatabaseBean
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.FontManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.keyboard.KeyboardWindow
+import com.localtype.app.ime.segments.SegmentsWindow
+import com.localtype.app.ime.window.BoardWindow
+import com.localtype.app.ime.window.BoardWindowManager
+import com.localtype.app.ui.main.ClipEditActivity
+import com.localtype.app.util.AppUtils
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import org.kodein.di.instance
