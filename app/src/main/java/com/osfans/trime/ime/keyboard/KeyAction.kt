@@ -2,14 +2,14 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.view.KeyEvent
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ThemeManager
-import com.osfans.trime.ime.enums.Keycode
-import com.osfans.trime.util.virtualKeyCharacterMap
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ThemeManager
+import com.localtype.app.ime.enums.Keycode
+import com.localtype.app.util.virtualKeyCharacterMap
 
 /** [按鍵][Key]的各種事件（單擊、長按、滑動等）  */
 class KeyAction(
