@@ -2,13 +2,13 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ui.main
+package com.localtype.app.ui.main
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.daemon.RimeSession
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.daemon.RimeSession
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
