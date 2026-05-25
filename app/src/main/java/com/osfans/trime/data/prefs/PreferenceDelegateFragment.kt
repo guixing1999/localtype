@@ -2,7 +2,7 @@
  * SPDX-FileCopyrightText: 2015 - 2024 Rime community
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
-package com.osfans.trime.data.prefs
+package com.localtype.app.data.prefs
 
 import android.os.Bundle
 import androidx.annotation.CallSuper
@@ -10,7 +10,7 @@ import androidx.annotation.Keep
 import androidx.lifecycle.lifecycleScope
 import androidx.preference.Preference
 import androidx.preference.PreferenceScreen
-import com.osfans.trime.ui.common.PaddingPreferenceFragment
+import com.localtype.app.ui.common.PaddingPreferenceFragment
 import kotlinx.coroutines.launch
 
 abstract class PreferenceDelegateFragment(
