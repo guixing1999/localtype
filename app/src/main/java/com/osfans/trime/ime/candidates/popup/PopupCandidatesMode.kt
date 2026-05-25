@@ -3,10 +3,10 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.popup
+package com.localtype.app.ime.candidates.popup
 
-import com.osfans.trime.R
-import com.osfans.trime.data.prefs.PreferenceDelegateEnum
+import com.localtype.app.R
+import com.localtype.app.data.prefs.PreferenceDelegateEnum
 
 enum class PopupCandidatesMode(
     override val stringRes: Int,
