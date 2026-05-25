@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -20,9 +20,9 @@ import androidx.autofill.inline.common.ImageViewStyle
 import androidx.autofill.inline.common.TextViewStyle
 import androidx.autofill.inline.common.ViewStyle
 import androidx.autofill.inline.v1.InlineSuggestionUi
-import com.osfans.trime.R
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.util.ColorUtils
+import com.localtype.app.R
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.util.ColorUtils
 import splitties.dimensions.dp
 
 object InlineSuggestions {
