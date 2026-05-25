@@ -3,18 +3,18 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import android.graphics.Color
 import android.os.Build
 import android.view.Window
 import androidx.annotation.ColorInt
 import androidx.core.view.WindowCompat
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.ThemeManager
-import com.osfans.trime.data.theme.ThemePrefs
-import com.osfans.trime.util.ColorUtils
-import com.osfans.trime.util.DeviceUtils
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.ThemeManager
+import com.localtype.app.data.theme.ThemePrefs
+import com.localtype.app.util.ColorUtils
+import com.localtype.app.util.DeviceUtils
 
 class NavigationBarManager {
     private val navbarBackground by ThemeManager.prefs.navbarBackground
