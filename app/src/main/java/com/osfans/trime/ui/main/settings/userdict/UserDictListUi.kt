@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.userdict
+package com.localtype.app.ui.main.settings.userdict
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -21,7 +21,7 @@ import com.google.android.material.behavior.HideBottomViewOnScrollBehavior
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
-import com.osfans.trime.R
+import com.localtype.app.R
 import splitties.dimensions.dp
 import splitties.resources.drawable
 import splitties.resources.styledColor
