@@ -2,17 +2,17 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.symbol
+package com.localtype.app.ime.symbol
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.widget.FrameLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.setPadding
-import com.osfans.trime.data.theme.KeyActionManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.LiquidKeyboard
-import com.osfans.trime.ime.keyboard.CommonKeyboardActionListener
+import com.localtype.app.data.theme.KeyActionManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.LiquidKeyboard
+import com.localtype.app.ime.keyboard.CommonKeyboardActionListener
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.above
 import splitties.views.dsl.constraintlayout.after
