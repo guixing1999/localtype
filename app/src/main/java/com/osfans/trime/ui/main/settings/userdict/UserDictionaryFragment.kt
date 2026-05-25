@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.userdict
+package com.localtype.app.ui.main.settings.userdict
 
 import android.content.ContentResolver
 import android.content.ContextWrapper
@@ -19,11 +19,11 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.R
-import com.osfans.trime.data.userdict.UserDictManager
-import com.osfans.trime.util.importErrorDialog
-import com.osfans.trime.util.item
-import com.osfans.trime.util.toast
+import com.localtype.app.R
+import com.localtype.app.data.userdict.UserDictManager
+import com.localtype.app.util.importErrorDialog
+import com.localtype.app.util.item
+import com.localtype.app.util.toast
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.launch
