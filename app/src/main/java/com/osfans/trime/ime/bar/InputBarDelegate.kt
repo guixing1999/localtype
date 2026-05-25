@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.bar
+package com.localtype.app.ime.bar
 
 import android.content.Context
 import android.os.Build
@@ -18,29 +18,29 @@ import android.widget.inline.InlineContentView
 import androidx.annotation.Keep
 import androidx.annotation.RequiresApi
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.R
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.data.db.ClipboardHelper
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.KeyActionManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.bar.ui.AlwaysUi
-import com.osfans.trime.ime.bar.ui.CandidateUi
-import com.osfans.trime.ime.bar.ui.TabUi
-import com.osfans.trime.ime.broadcast.InputBroadcastReceiver
-import com.osfans.trime.ime.candidates.compact.CompactCandidateDelegate
-import com.osfans.trime.ime.candidates.unrolled.window.FlexboxUnrolledCandidateWindow
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.dependency.InputDependencyManager
-import com.osfans.trime.ime.keyboard.CommonKeyboardActionListener
-import com.osfans.trime.ime.keyboard.KeyBehavior
-import com.osfans.trime.ime.keyboard.KeyboardWindow
-import com.osfans.trime.ime.switches.SwitchOptionWindow
-import com.osfans.trime.ime.window.BoardWindow
-import com.osfans.trime.ime.window.BoardWindowManager
-import com.osfans.trime.ui.main.ClipEditActivity
-import com.osfans.trime.util.AppUtils
+import com.localtype.app.R
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.data.db.ClipboardHelper
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.KeyActionManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.bar.ui.AlwaysUi
+import com.localtype.app.ime.bar.ui.CandidateUi
+import com.localtype.app.ime.bar.ui.TabUi
+import com.localtype.app.ime.broadcast.InputBroadcastReceiver
+import com.localtype.app.ime.candidates.compact.CompactCandidateDelegate
+import com.localtype.app.ime.candidates.unrolled.window.FlexboxUnrolledCandidateWindow
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.dependency.InputDependencyManager
+import com.localtype.app.ime.keyboard.CommonKeyboardActionListener
+import com.localtype.app.ime.keyboard.KeyBehavior
+import com.localtype.app.ime.keyboard.KeyboardWindow
+import com.localtype.app.ime.switches.SwitchOptionWindow
+import com.localtype.app.ime.window.BoardWindow
+import com.localtype.app.ime.window.BoardWindowManager
+import com.localtype.app.ui.main.ClipEditActivity
+import com.localtype.app.util.AppUtils
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
