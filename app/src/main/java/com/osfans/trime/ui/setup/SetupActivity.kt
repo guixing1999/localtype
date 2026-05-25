@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ui.setup
+package com.localtype.app.ui.setup
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -19,12 +19,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
-import com.osfans.trime.R
-import com.osfans.trime.databinding.ActivitySetupBinding
-import com.osfans.trime.ui.setup.SetupPage.Companion.firstUndonePage
-import com.osfans.trime.ui.setup.SetupPage.Companion.isLastPage
-import com.osfans.trime.util.appContext
-import com.osfans.trime.util.createNotificationChannel
+import com.localtype.app.R
+import com.localtype.app.databinding.ActivitySetupBinding
+import com.localtype.app.ui.setup.SetupPage.Companion.firstUndonePage
+import com.localtype.app.ui.setup.SetupPage.Companion.isLastPage
+import com.localtype.app.util.appContext
+import com.localtype.app.util.createNotificationChannel
 import splitties.systemservices.notificationManager
 
 class SetupActivity : FragmentActivity() {
