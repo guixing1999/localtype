@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.soundeffect
+package com.localtype.app.data.soundeffect
 
 import android.view.KeyEvent
-import com.osfans.trime.util.yaml.Node
-import com.osfans.trime.util.yaml.boolean
-import com.osfans.trime.util.yaml.get
-import com.osfans.trime.util.yaml.int
-import com.osfans.trime.util.yaml.sequence
-import com.osfans.trime.util.yaml.string
+import com.localtype.app.util.yaml.Node
+import com.localtype.app.util.yaml.boolean
+import com.localtype.app.util.yaml.get
+import com.localtype.app.util.yaml.int
+import com.localtype.app.util.yaml.sequence
+import com.localtype.app.util.yaml.string
 
 data class SoundEffect(
     val name: String = "",
