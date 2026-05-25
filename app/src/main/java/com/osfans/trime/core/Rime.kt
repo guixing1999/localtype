@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.core
+package com.localtype.app.core
 
-import com.osfans.trime.BuildConfig
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.data.opencc.OpenCCDictManager
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.ime.core.InlinePreeditMode
-import com.osfans.trime.util.appContext
-import com.osfans.trime.util.isStorageAvailable
+import com.localtype.app.BuildConfig
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.data.opencc.OpenCCDictManager
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.ime.core.InlinePreeditMode
+import com.localtype.app.util.appContext
+import com.localtype.app.util.isStorageAvailable
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.delay
