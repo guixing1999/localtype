@@ -2,15 +2,15 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ime.keyboard
+package com.localtype.app.ime.keyboard
 
 import android.graphics.drawable.Drawable
 import android.view.KeyEvent
 import androidx.annotation.ColorInt
-import com.osfans.trime.daemon.RimeDaemon
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.KeyActionManager
-import com.osfans.trime.data.theme.model.TextKeyboard
+import com.localtype.app.daemon.RimeDaemon
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.KeyActionManager
+import com.localtype.app.data.theme.model.TextKeyboard
 import splitties.bitflags.hasFlag
 
 /** [鍵盤][Keyboard]中的各個按鍵，包含單擊、長按、滑動等多種[事件][KeyAction]  */
