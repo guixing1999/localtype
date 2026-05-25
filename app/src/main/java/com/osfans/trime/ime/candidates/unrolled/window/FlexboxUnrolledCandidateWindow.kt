@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.unrolled.window
+package com.localtype.app.ime.candidates.unrolled.window
 
 import android.view.Gravity
 import android.view.ViewGroup
@@ -12,11 +12,11 @@ import androidx.transition.Transition
 import com.google.android.flexbox.AlignItems
 import com.google.android.flexbox.FlexboxLayoutManager
 import com.google.android.flexbox.JustifyContent
-import com.osfans.trime.ime.candidates.CandidateViewHolder
-import com.osfans.trime.ime.candidates.unrolled.PagingCandidateViewAdapter
-import com.osfans.trime.ime.candidates.unrolled.UnrolledCandidateLayout
-import com.osfans.trime.ime.candidates.unrolled.decoration.FlexboxHorizontalDecoration
-import com.osfans.trime.ime.window.BoardWindow
+import com.localtype.app.ime.candidates.CandidateViewHolder
+import com.localtype.app.ime.candidates.unrolled.PagingCandidateViewAdapter
+import com.localtype.app.ime.candidates.unrolled.UnrolledCandidateLayout
+import com.localtype.app.ime.candidates.unrolled.decoration.FlexboxHorizontalDecoration
+import com.localtype.app.ime.window.BoardWindow
 import splitties.dimensions.dp
 import splitties.views.dsl.core.wrapContent
 
