@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 val String.Companion.EMPTY: String
     get() = ""
