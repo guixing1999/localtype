@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.content.Context
 import android.content.Intent
 import android.util.SparseArray
 import android.view.KeyEvent
-import com.osfans.trime.ui.main.ClipEditActivity
-import com.osfans.trime.ui.main.LogActivity
-import com.osfans.trime.ui.main.MainActivity
-import com.osfans.trime.ui.main.NavigationRoute
+import com.localtype.app.ui.main.ClipEditActivity
+import com.localtype.app.ui.main.LogActivity
+import com.localtype.app.ui.main.MainActivity
+import com.localtype.app.ui.main.NavigationRoute
 import timber.log.Timber
 
 object AppUtils {
