@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.composition
+package com.localtype.app.ime.composition
 
 import android.annotation.SuppressLint
 import android.graphics.RectF
@@ -18,18 +18,18 @@ import androidx.core.graphics.component1
 import androidx.core.graphics.component2
 import androidx.core.graphics.component3
 import androidx.core.graphics.component4
-import com.osfans.trime.core.CompositionProto
-import com.osfans.trime.core.MenuProto
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.prefs.AppPrefs
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.candidates.popup.PagedCandidatesUi
-import com.osfans.trime.ime.core.BaseInputView
-import com.osfans.trime.ime.core.TouchEventReceiverWindow
-import com.osfans.trime.ime.core.TrimeInputMethodService
+import com.localtype.app.core.CompositionProto
+import com.localtype.app.core.MenuProto
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.prefs.AppPrefs
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.candidates.popup.PagedCandidatesUi
+import com.localtype.app.ime.core.BaseInputView
+import com.localtype.app.ime.core.TouchEventReceiverWindow
+import com.localtype.app.ime.core.TrimeInputMethodService
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.below
 import splitties.views.dsl.constraintlayout.bottomOfParent
