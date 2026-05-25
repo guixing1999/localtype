@@ -3,28 +3,28 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.switches
+package com.localtype.app.ime.switches
 
 import android.app.Dialog
 import android.view.View
 import android.widget.PopupMenu
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.R
-import com.osfans.trime.core.RimeApi
-import com.osfans.trime.core.RimeConfig
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.core.SchemaItem
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.bar.ui.ToolButton
-import com.osfans.trime.ime.broadcast.InputBroadcastReceiver
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.dialog.EnabledSchemaPickerDialog
-import com.osfans.trime.ime.window.BoardWindow
-import com.osfans.trime.ui.main.settings.ThemePickerDialog
-import com.osfans.trime.util.AppUtils
+import com.localtype.app.R
+import com.localtype.app.core.RimeApi
+import com.localtype.app.core.RimeConfig
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.core.SchemaItem
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.bar.ui.ToolButton
+import com.localtype.app.ime.broadcast.InputBroadcastReceiver
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.dialog.EnabledSchemaPickerDialog
+import com.localtype.app.ime.window.BoardWindow
+import com.localtype.app.ui.main.settings.ThemePickerDialog
+import com.localtype.app.util.AppUtils
 import kotlinx.coroutines.launch
 import org.kodein.di.instance
 import splitties.dimensions.dp
