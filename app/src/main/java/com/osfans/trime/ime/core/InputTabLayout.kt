@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import android.content.Context
 import android.graphics.Typeface
 import android.view.Gravity
 import android.widget.LinearLayout
 import androidx.viewpager2.widget.ViewPager2
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.ime.keyboard.GestureFrame
-import com.osfans.trime.util.alpha
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.ime.keyboard.GestureFrame
+import com.localtype.app.util.alpha
 import splitties.dimensions.dp
 import splitties.views.dsl.core.Ui
 import splitties.views.dsl.core.add
