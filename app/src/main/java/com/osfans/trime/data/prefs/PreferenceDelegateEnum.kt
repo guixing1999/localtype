@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.data.prefs
+package com.localtype.app.data.prefs
 
 import androidx.annotation.StringRes
 
