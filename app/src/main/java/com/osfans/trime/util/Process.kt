@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
