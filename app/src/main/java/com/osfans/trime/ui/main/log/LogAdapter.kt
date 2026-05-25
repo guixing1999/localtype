@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.log
+package com.localtype.app.ui.main.log
 
 import android.graphics.Typeface
 import android.os.Build
