@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 @Suppress("NOTHING_TO_INLINE")
 inline fun Char.isAsciiPrintable(): Boolean = code in 32 until 127
