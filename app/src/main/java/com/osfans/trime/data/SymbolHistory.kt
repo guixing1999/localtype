@@ -2,9 +2,9 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data
+package com.localtype.app.data
 
-import com.osfans.trime.util.appContext
+import com.localtype.app.util.appContext
 
 class SymbolHistory(
     val capacity: Int,
