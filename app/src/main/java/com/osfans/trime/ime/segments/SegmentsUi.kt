@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.segments
+package com.localtype.app.ime.segments
 
 import android.content.Context
-import com.osfans.trime.R
-import com.osfans.trime.ime.bar.ui.ToolButton
+import com.localtype.app.R
+import com.localtype.app.ime.bar.ui.ToolButton
 import splitties.dimensions.dp
 import splitties.views.dsl.constraintlayout.bottomOfParent
 import splitties.views.dsl.constraintlayout.centerHorizontally
