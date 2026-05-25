@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.core
+package com.localtype.app.ime.core
 
 import android.annotation.SuppressLint
 import android.content.res.Resources
@@ -16,14 +16,14 @@ import androidx.core.text.buildSpannedString
 import androidx.core.text.color
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.R
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.data.theme.ColorManager
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.ThemeManager
-import com.osfans.trime.data.theme.ThemePrefs
-import com.osfans.trime.ime.keyboard.InputFeedbackManager
+import com.localtype.app.R
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.data.theme.ColorManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.ThemeManager
+import com.localtype.app.data.theme.ThemePrefs
+import com.localtype.app.ime.keyboard.InputFeedbackManager
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import splitties.dimensions.dp
