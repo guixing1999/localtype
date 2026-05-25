@@ -20,12 +20,12 @@ plugins {
 }
 
 android {
-    namespace = "com.osfans.trime"
+    com.localtype.app
     compileSdk = 35
     buildToolsVersion = "35.0.0"
 
     defaultConfig {
-        applicationId = "com.osfans.trime"
+        applicationId = "com.localtype.app"
         minSdk = 21
         targetSdk = 35
         versionCode = 20260701
