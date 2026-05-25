@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.broadcast
+package com.localtype.app.ime.broadcast
 
 import android.view.inputmethod.EditorInfo
-import com.osfans.trime.core.CompositionProto
-import com.osfans.trime.core.MenuProto
-import com.osfans.trime.core.RimeMessage
-import com.osfans.trime.core.SchemaItem
-import com.osfans.trime.core.StatusProto
-import com.osfans.trime.ime.window.BoardWindow
+import com.localtype.app.core.CompositionProto
+import com.localtype.app.core.MenuProto
+import com.localtype.app.core.RimeMessage
+import com.localtype.app.core.SchemaItem
+import com.localtype.app.core.StatusProto
+import com.localtype.app.ime.window.BoardWindow
 import java.util.concurrent.ConcurrentLinkedQueue
 
 class InputBroadcaster : InputBroadcastReceiver {
