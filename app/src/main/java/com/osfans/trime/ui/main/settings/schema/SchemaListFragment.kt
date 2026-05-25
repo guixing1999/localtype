@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ui.main.settings.schema
+package com.localtype.app.ui.main.settings.schema
 
 import android.view.View
 import androidx.lifecycle.lifecycleScope
-import com.osfans.trime.core.SchemaItem
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.ui.common.OnItemChangedListener
-import com.osfans.trime.ui.main.settings.ProgressFragment
-import com.osfans.trime.util.NaiveDustman
+import com.localtype.app.core.SchemaItem
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.ui.common.OnItemChangedListener
+import com.localtype.app.ui.main.settings.ProgressFragment
+import com.localtype.app.util.NaiveDustman
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.launch
