@@ -3,9 +3,9 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.content.Context
-import com.osfans.trime.TrimeApplication
+import com.localtype.app.TrimeApplication
 
 val appContext: Context get() = TrimeApplication.getInstance().applicationContext
