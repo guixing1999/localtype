@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.ui.setup
+package com.localtype.app.ui.setup
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import com.osfans.trime.databinding.FragmentSetupBinding
-import com.osfans.trime.ui.setup.SetupPage.Companion.isLastPage
-import com.osfans.trime.util.serializable
+import com.localtype.app.databinding.FragmentSetupBinding
+import com.localtype.app.ui.setup.SetupPage.Companion.isLastPage
+import com.localtype.app.util.serializable
 
 class SetupFragment : Fragment() {
     private val viewModel: SetupViewModel by activityViewModels()
