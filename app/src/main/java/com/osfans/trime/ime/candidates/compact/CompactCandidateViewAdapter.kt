@@ -3,17 +3,17 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.candidates.compact
+package com.localtype.app.ime.candidates.compact
 
 import android.content.Context
 import android.view.ViewGroup
 import androidx.core.view.updateLayoutParams
 import com.chad.library.adapter4.BaseQuickAdapter
 import com.google.android.flexbox.FlexboxLayoutManager
-import com.osfans.trime.core.CandidateItem
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.candidates.CandidateItemUi
-import com.osfans.trime.ime.candidates.CandidateViewHolder
+import com.localtype.app.core.CandidateItem
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.candidates.CandidateItemUi
+import com.localtype.app.ime.candidates.CandidateViewHolder
 import splitties.dimensions.dp
 import splitties.views.dsl.core.matchParent
 import splitties.views.dsl.core.wrapContent
