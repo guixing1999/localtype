@@ -2,13 +2,13 @@
 //
 // SPDX-License-Identifier: GPL-3.0-or-later
 
-package com.osfans.trime.data.opencc
+package com.localtype.app.data.opencc
 
-import com.osfans.trime.data.base.DataManager
-import com.osfans.trime.data.opencc.dict.Dictionary
-import com.osfans.trime.data.opencc.dict.OpenCCDictionary
-import com.osfans.trime.data.opencc.dict.TextDictionary
-import com.osfans.trime.util.appContext
+import com.localtype.app.data.base.DataManager
+import com.localtype.app.data.opencc.dict.Dictionary
+import com.localtype.app.data.opencc.dict.OpenCCDictionary
+import com.localtype.app.data.opencc.dict.TextDictionary
+import com.localtype.app.util.appContext
 import timber.log.Timber
 import java.io.File
 import java.io.InputStream
