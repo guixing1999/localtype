@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.util
+package com.localtype.app.util
 
 import android.content.Context
 import androidx.appcompat.app.AlertDialog
-import com.osfans.trime.R
+import com.localtype.app.R
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 
