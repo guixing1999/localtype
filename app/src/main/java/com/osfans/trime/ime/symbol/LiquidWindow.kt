@@ -3,24 +3,24 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.symbol
+package com.localtype.app.ime.symbol
 
 import android.view.View
 import androidx.core.content.ContextCompat
 import com.google.android.flexbox.FlexDirection
 import com.google.android.flexbox.FlexWrap
 import com.google.android.flexbox.FlexboxLayoutManager
-import com.osfans.trime.daemon.RimeSession
-import com.osfans.trime.daemon.launchOnReady
-import com.osfans.trime.data.SymbolHistory
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.data.theme.model.LiquidKeyboard
-import com.osfans.trime.ime.core.TrimeInputMethodService
-import com.osfans.trime.ime.keyboard.CommonKeyboardActionListener
-import com.osfans.trime.ime.keyboard.KeyboardWindow
-import com.osfans.trime.ime.window.BoardWindow
-import com.osfans.trime.ime.window.BoardWindowManager
-import com.osfans.trime.ime.window.ResidentWindow
+import com.localtype.app.daemon.RimeSession
+import com.localtype.app.daemon.launchOnReady
+import com.localtype.app.data.SymbolHistory
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.data.theme.model.LiquidKeyboard
+import com.localtype.app.ime.core.TrimeInputMethodService
+import com.localtype.app.ime.keyboard.CommonKeyboardActionListener
+import com.localtype.app.ime.keyboard.KeyboardWindow
+import com.localtype.app.ime.window.BoardWindow
+import com.localtype.app.ime.window.BoardWindowManager
+import com.localtype.app.ime.window.ResidentWindow
 import org.kodein.di.instance
 
 class LiquidWindow :
