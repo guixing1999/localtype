@@ -3,11 +3,11 @@
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 
-package com.osfans.trime.ime.broadcast
+package com.localtype.app.ime.broadcast
 
 import android.view.inputmethod.EditorInfo
-import com.osfans.trime.data.theme.Theme
-import com.osfans.trime.ime.dependency.InputDependencyManager
+import com.localtype.app.data.theme.Theme
+import com.localtype.app.ime.dependency.InputDependencyManager
 import org.kodein.di.instance
 import splitties.bitflags.hasFlag
 
