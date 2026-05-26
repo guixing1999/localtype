@@ -114,10 +114,16 @@ inline jobject rimeMenuToJObject(JNIEnv* env, const MenuProto& menu) {
 }
 
 inline jobject rimeContextToJObject(JNIEnv* env, const ContextProto& context) {
-  return env->NewObject(GlobalRef->ContextProto, GlobalRef->ContextProtoInit,
-                        rimeCompositionToJObject(env, context.composition),
-                        rimeMenuToJObject(env, context.menu),
-                        *JString(env, context.input), context.caretPos);
+  auto obj = env->AllocObject(GlobalRef->ContextProto);
+  env->SetObjectField(obj, GlobalRef->ContextProtoComposition,
+                      rimeCompositionToJObject(env, context.composition));
+  env->SetObjectField(obj, GlobalRef->ContextProtoMenu,
+                      rimeMenuToJObject(env, context.menu));
+  env->SetObjectField(obj, GlobalRef->ContextProtoInput,
+                      *JString(env, context.input));
+  env->SetIntField(obj, GlobalRef->ContextProtoCaretPos,
+                   context.caretPos);
+  return obj;
 }
 
 inline jobject rimeStatusToJObject(JNIEnv* env, const StatusProto& status) {

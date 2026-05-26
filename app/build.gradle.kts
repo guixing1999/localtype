@@ -20,7 +20,7 @@ plugins {
 }
 
 android {
-    com.localtype.app
+    namespace = "com.localtype.app"
     compileSdk = 35
     buildToolsVersion = "35.0.0"
 
@@ -32,6 +32,7 @@ android {
         versionName = "3.3.11"
 
         multiDexEnabled = true
+        multiDexKeepFile = file("multidex-config.txt")
         buildConfigField("String", "BUILDER", "\"${project.builder}\"")
         buildConfigField("long", "BUILD_TIMESTAMP", project.buildTimestamp)
         buildConfigField("String", "BUILD_COMMIT_HASH", "\"${project.buildCommitHash}\"")

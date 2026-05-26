@@ -387,6 +387,16 @@ class Rime :
 
         private val rimeMessageHandlers = ArrayList<(RimeMessage<*>) -> Unit>()
 
+        // Preload proto classes to avoid multi-dex class loading issues during JNI_OnLoad
+        private val preloadedClasses = listOf(
+            ContextProto::class,
+            CompositionProto::class,
+            MenuProto::class,
+            CandidateProto::class,
+            CommitProto::class,
+            StatusProto::class,
+        )
+
         init {
             System.loadLibrary("rime_jni")
         }

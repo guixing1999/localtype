@@ -113,7 +113,10 @@ class GlobalRefSingleton {
   jmethodID CommitProtoInit;
 
   jclass ContextProto;
-  jmethodID ContextProtoInit;
+  jfieldID ContextProtoComposition;
+  jfieldID ContextProtoMenu;
+  jfieldID ContextProtoInput;
+  jfieldID ContextProtoCaretPos;
 
   jclass CompositionProto;
   jmethodID CompositionProtoInit;
@@ -149,60 +152,59 @@ class GlobalRefSingleton {
     BooleanInit = env->GetMethodID(Boolean, "<init>", "(Z)V");
 
     Rime = reinterpret_cast<jclass>(
-        env->NewGlobalRef(env->FindClass("com/osfans/trime/core/Rime")));
+        env->NewGlobalRef(env->FindClass("com/localtype/app/core/Rime")));
     HandleRimeMessage = env->GetStaticMethodID(Rime, "handleRimeMessage",
                                                "(I[Ljava/lang/Object;)V");
 
     CandidateItem = reinterpret_cast<jclass>(env->NewGlobalRef(
-        env->FindClass("com/osfans/trime/core/CandidateItem")));
+        env->FindClass("com/localtype/app/core/CandidateItem")));
     CandidateItemInit = env->GetMethodID(
         CandidateItem, "<init>", "(Ljava/lang/String;Ljava/lang/String;)V");
 
     CandidateProto = reinterpret_cast<jclass>(env->NewGlobalRef(
-        env->FindClass("com/osfans/trime/core/CandidateProto")));
+        env->FindClass("com/localtype/app/core/CandidateProto")));
     CandidateProtoInit = env->GetMethodID(
         CandidateProto, "<init>",
         "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V");
 
     CommitProto = reinterpret_cast<jclass>(
-        env->NewGlobalRef(env->FindClass("com/osfans/trime/core/CommitProto")));
+        env->NewGlobalRef(env->FindClass("com/localtype/app/core/CommitProto")));
     CommitProtoInit =
         env->GetMethodID(CommitProto, "<init>", "(Ljava/lang/String;)V");
 
     ContextProto = reinterpret_cast<jclass>(env->NewGlobalRef(
-        env->FindClass("com/osfans/trime/core/ContextProto")));
-    ContextProtoInit =
-        env->GetMethodID(ContextProto, "<init>",
-                         "(Lcom/osfans/trime/core/CompositionProto;Lcom/osfans/"
-                         "trime/core/"
-                         "MenuProto;Ljava/lang/String;I)V");
+        env->FindClass("com/localtype/app/core/ContextProto")));
+    ContextProtoComposition = env->GetFieldID(ContextProto, "composition", "Lcom/localtype/app/core/CompositionProto;");
+    ContextProtoMenu = env->GetFieldID(ContextProto, "menu", "Lcom/localtype/app/core/MenuProto;");
+    ContextProtoInput = env->GetFieldID(ContextProto, "input", "Ljava/lang/String;");
+    ContextProtoCaretPos = env->GetFieldID(ContextProto, "caretPos", "I");
 
     CompositionProto = reinterpret_cast<jclass>(env->NewGlobalRef(
-        env->FindClass("com/osfans/trime/core/CompositionProto")));
+        env->FindClass("com/localtype/app/core/CompositionProto")));
     CompositionProtoInit =
         env->GetMethodID(CompositionProto, "<init>",
                          "(IIIILjava/lang/String;Ljava/lang/String;)V");
 
     MenuProto = reinterpret_cast<jclass>(
-        env->NewGlobalRef(env->FindClass("com/osfans/trime/core/MenuProto")));
+        env->NewGlobalRef(env->FindClass("com/localtype/app/core/MenuProto")));
     MenuProtoInit = env->GetMethodID(
         MenuProto, "<init>",
-        "(IIZI[Lcom/osfans/trime/core/CandidateProto;Ljava/lang/"
+        "(IIZI[Lcom/localtype/app/core/CandidateProto;Ljava/lang/"
         "String;[Ljava/lang/String;)V");
 
     StatusProto = reinterpret_cast<jclass>(
-        env->NewGlobalRef(env->FindClass("com/osfans/trime/core/StatusProto")));
+        env->NewGlobalRef(env->FindClass("com/localtype/app/core/StatusProto")));
     StatusProtoInit =
         env->GetMethodID(StatusProto, "<init>",
                          "(Ljava/lang/String;Ljava/lang/String;ZZZZZZZ)V");
 
     SchemaListItem = reinterpret_cast<jclass>(
-        env->NewGlobalRef(env->FindClass("com/osfans/trime/core/SchemaItem")));
+        env->NewGlobalRef(env->FindClass("com/localtype/app/core/SchemaItem")));
     SchemaListItemInit = env->GetMethodID(
         SchemaListItem, "<init>", "(Ljava/lang/String;Ljava/lang/String;)V");
 
     KeyEvent = reinterpret_cast<jclass>(env->NewGlobalRef(
-        env->FindClass("com/osfans/trime/core/RimeKeyEvent")));
+        env->FindClass("com/localtype/app/core/RimeKeyEvent")));
     KeyEventInit =
         env->GetMethodID(KeyEvent, "<init>", "(IILjava/lang/String;)V");
   }
@@ -211,3 +213,4 @@ class GlobalRefSingleton {
 };
 
 extern GlobalRefSingleton *GlobalRef;
+

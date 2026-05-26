@@ -1,0 +1,7 @@
+com/localtype/app/core/ContextProto.class
+com/localtype/app/core/CompositionProto.class
+com/localtype/app/core/MenuProto.class
+com/localtype/app/core/CandidateProto.class
+com/localtype/app/core/CommitProto.class
+com/localtype/app/core/StatusProto.class
+com/localtype/app/core/Rime.class
